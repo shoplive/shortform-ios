@@ -17,6 +17,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>ShopLiveSDKCommonTarget</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ShopliveShortformSDK</key>
 		<dict>
 			<key>primary</key>
