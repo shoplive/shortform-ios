@@ -21,11 +21,5 @@ let package = Package(
         .binaryTarget(name: "ShopliveShortformSDK",
                       path: "./Frameworks/ShopliveShortformSDK.xcframework"
                      ),
-        .target(name: "ShopliveShortformSDKTargets",
-                dependencies: [
-                        .target(name: "ShopliveSDKCommon")
-                    ],
-                path: "ShopliveShortformTargets"
-               ),
     ]
 )

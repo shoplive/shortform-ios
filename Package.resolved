@@ -2,21 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "Alamofire",
-        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
-        "state": {
-          "branch": null,
-          "revision": "bc268c28fb170f494de9e9927c371b8342979ece",
-          "version": "5.7.1"
-        }
-      },
-      {
         "package": "ShopliveSDKCommon",
         "repositoryURL": "https://github.com/shoplive/common-ios.git",
         "state": {
           "branch": null,
-          "revision": "09b77fd5030038ab4e9b931e0a8585db25ab5c37",
-          "version": "1.0.0"
+          "revision": "5a365f60eebf8483a968cca37ab350f3d220c5fb",
+          "version": "1.4.0"
         }
       }
     ]
