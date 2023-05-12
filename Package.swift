@@ -10,7 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "ShopliveShortformSDK",
-            targets: ["ShopliveShortformSDK","ShopLiveSDKCommonTarget"]),
+            targets: ["ShopLiveShortformSDK","ShopLiveSDKCommonTarget"]),
     ],
     dependencies: [
         .package(url: "https://github.com/shoplive/common-ios.git", .upToNextMajor(from: "1.4.0")),
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: "ShopliveShortformSDK",
-                      path: "./Frameworks/ShopliveShortformSDK.xcframework"),
+        .binaryTarget(name: "ShopLiveShortformSDK",
+                      path: "./Frameworks/ShopLiveShortformSDK.xcframework"),
         
         .target(name: "ShopLiveSDKCommonTarget",
                 dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")])
