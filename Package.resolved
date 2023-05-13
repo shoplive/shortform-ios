@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ShopliveSDKCommon",
+        "repositoryURL": "https://github.com/shoplive/common-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "5a365f60eebf8483a968cca37ab350f3d220c5fb",
+          "version": "1.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
