@@ -98,13 +98,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
 }
 @_hasMissingDesignatedInitializers public class ShopLiveShortform {
-  public static func setAdid(adid: Swift.String)
-  public static func play(reference: Swift.String? = nil)
-  public static func play(shorts: ShopLiveShortformSDK.ShopLiveShortform.ShortsBridgeModel?)
-  public static func preview()
-  public static func preview(shorts: ShopLiveShortformSDK.ShopLiveShortform.ShortsBridgeModel?)
-  public static func hide()
-  public static func setUser(user: [Swift.String : Any])
+  public static func close()
   @objc deinit
 }
 extension Swift.Error {

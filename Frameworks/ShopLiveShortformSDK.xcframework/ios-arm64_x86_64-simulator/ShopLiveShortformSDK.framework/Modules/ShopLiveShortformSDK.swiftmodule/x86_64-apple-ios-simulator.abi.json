@@ -1921,109 +1921,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "setAdid",
-            "printedName": "setAdid(adid:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C7setAdid4adidySS_tFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C7setAdid4adidySS_tFZ",
-            "moduleName": "ShopLiveShortformSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "play",
-            "printedName": "play(reference:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C4play9referenceySSSg_tFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C4play9referenceySSSg_tFZ",
-            "moduleName": "ShopLiveShortformSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "play",
-            "printedName": "play(shorts:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ShopLiveShortformSDK.ShopLiveShortform.ShortsBridgeModel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShortsBridgeModel",
-                    "printedName": "ShopLiveShortformSDK.ShopLiveShortform.ShortsBridgeModel",
-                    "usr": "s:20ShopLiveShortformSDK0abC0C17ShortsBridgeModelV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C4play6shortsyAC17ShortsBridgeModelVSg_tFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C4play6shortsyAC17ShortsBridgeModelVSg_tFZ",
-            "moduleName": "ShopLiveShortformSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "preview",
-            "printedName": "preview()",
+            "name": "close",
+            "printedName": "close()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2032,107 +1931,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C7previewyyFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C7previewyyFZ",
-            "moduleName": "ShopLiveShortformSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "preview",
-            "printedName": "preview(shorts:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ShopLiveShortformSDK.ShopLiveShortform.ShortsBridgeModel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShortsBridgeModel",
-                    "printedName": "ShopLiveShortformSDK.ShopLiveShortform.ShortsBridgeModel",
-                    "usr": "s:20ShopLiveShortformSDK0abC0C17ShortsBridgeModelV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C7preview6shortsyAC17ShortsBridgeModelVSg_tFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C7preview6shortsyAC17ShortsBridgeModelVSg_tFZ",
-            "moduleName": "ShopLiveShortformSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hide",
-            "printedName": "hide()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C4hideyyFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C4hideyyFZ",
-            "moduleName": "ShopLiveShortformSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setUser",
-            "printedName": "setUser(user:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C7setUser4userySDySSypG_tFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C7setUser4userySDySSypG_tFZ",
+            "usr": "s:20ShopLiveShortformSDK0abC0C5closeyyFZ",
+            "mangledName": "$s20ShopLiveShortformSDK0abC0C5closeyyFZ",
             "moduleName": "ShopLiveShortformSDK",
             "static": true,
             "declAttributes": [
@@ -7447,56 +7247,56 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 3947,
+      "offset": 4086,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 3969,
+      "offset": 4108,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 3993,
+      "offset": 4132,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 4018,
+      "offset": 4157,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 3947,
+      "offset": 4086,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 3969,
+      "offset": 4108,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 3993,
+      "offset": 4132,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 4018,
+      "offset": 4157,
       "length": 9,
       "value": "4"
     },
@@ -8161,294 +7961,294 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12649,
+      "offset": 12651,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16431,
+      "offset": 16433,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16473,
+      "offset": 16475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16527,
+      "offset": 16529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16536,
+      "offset": 16538,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16547,
+      "offset": 16549,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16557,
+      "offset": 16559,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 16827,
+      "offset": 16829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17020,
+      "offset": 17022,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17281,
+      "offset": 17283,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17335,
+      "offset": 17337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17391,
+      "offset": 17393,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17590,
+      "offset": 17592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17701,
+      "offset": 17703,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17918,
+      "offset": 17920,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18077,
+      "offset": 18079,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18153,
+      "offset": 18155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18367,
+      "offset": 18369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18377,
+      "offset": 18379,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18386,
+      "offset": 18388,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "FloatLiteral",
-      "offset": 18396,
+      "offset": 18398,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18437,
+      "offset": 18439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18447,
+      "offset": 18449,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18456,
+      "offset": 18458,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18466,
+      "offset": 18468,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "Array",
-      "offset": 18523,
+      "offset": 18525,
       "length": 6,
       "value": "[0, 1]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "FloatLiteral",
-      "offset": 18573,
+      "offset": 18575,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "FloatLiteral",
-      "offset": 18582,
+      "offset": 18584,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "FloatLiteral",
-      "offset": 18628,
+      "offset": 18630,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "FloatLiteral",
-      "offset": 18637,
+      "offset": 18639,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18727,
+      "offset": 18729,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18733,
+      "offset": 18735,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18739,
+      "offset": 18741,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18746,
+      "offset": 18748,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18753,
+      "offset": 18755,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18760,
+      "offset": 18762,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18945,
+      "offset": 18947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19041,
+      "offset": 19043,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 19235,
+      "offset": 19237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 19344,
+      "offset": 19346,
       "length": 13,
       "value": "\"closebutton\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 32952,
+      "offset": 32956,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 36137,
+      "offset": 36141,
       "length": 5,
       "value": "false"
     },
@@ -8462,14 +8262,14 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 48926,
+      "offset": 48931,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/list\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 49157,
+      "offset": 49162,
       "length": 1,
       "value": "0"
     },
@@ -8623,35 +8423,35 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 17825,
+      "offset": 17826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 17846,
+      "offset": 17847,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 21815,
+      "offset": 21816,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 21858,
+      "offset": 21859,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 22058,
+      "offset": 22059,
       "length": 4,
       "value": "true"
     },
