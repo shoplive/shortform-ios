@@ -14,7 +14,7 @@ let package = Package(
             targets: ["ShopLiveShortformSDK","ShopLiveSDKCommonTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/shoplive/common-ios.git", .upToNextMajor(from: "1.4.0")),
+        .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.0")),
     ],
     targets: [
         .binaryTarget(name: "ShopLiveShortformSDK",
