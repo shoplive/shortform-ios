@@ -67,20 +67,20 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = true, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = true, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
 }
-public enum ShortsError : Swift.Error {
+public enum ShortformError : Swift.Error {
   case statusCode(Swift.Int)
   case invalidConfig
   case other(Swift.Error)
@@ -108,10 +108,10 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   @objc deinit
 }
 extension Swift.Error {
-  public var isShortsError: Swift.Bool {
+  public var isShortformError: Swift.Bool {
     get
   }
-  public var shortsError: ShopLiveShortformSDK.ShortsError? {
+  public var shortformError: ShopLiveShortformSDK.ShortformError? {
     get
   }
 }
