@@ -22,7 +22,7 @@ let package = Package(
     targets: [
         .binaryTarget(name: "ShopLiveShortformSDK",
                       path: "./Frameworks/ShopLiveShortformSDK.xcframework"),
-        .binaryTarget(name: "ShopLiveShortformSDK",
+        .binaryTarget(name: "ShopLiveShortformUploadSDK",
                       path: "./Frameworks/ShopLiveShortformUploadSDK.xcframework"),
         
         .target(name: "ShopLiveSDKCommonTarget",
