@@ -24,7 +24,7 @@ let package = Package(
         .target(name: "ShopLiveSDKCommonTarget",
                 dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")]),
         
-        .target(name: "FFmpegTarget",
+        .target(name: "ffmpegkit",
                 dependencies: [.product(name: "ffmpegkit", package: "ffmpeg-kit-spm")])
     ]
 )
