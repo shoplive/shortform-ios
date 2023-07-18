@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShopLiveShortformSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -16,14 +16,14 @@ import _StringProcessing
 @objc public protocol SLMP4CachingPlayerItemDelegate {
   @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, didFinishDownloadingFileAt filePath: Swift.String)
   @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, didDownloadBytesSoFar bytesDownloaded: Swift.Int, outOf bytesExpected: Swift.Int)
-  @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, downloadingFailedWith error: Swift.Error)
+  @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, downloadingFailedWith error: any Swift.Error)
   @objc optional func playerItemReadyToPlay(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem)
-  @objc optional func playerItemDidFailToPlay(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, withError error: Swift.Error?)
+  @objc optional func playerItemDidFailToPlay(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, withError error: (any Swift.Error)?)
   @objc optional func playerItemPlaybackStalled(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem)
 }
 @objc @_inheritsConvenienceInitializers final public class SLMP4CachingPlayerItem : AVFoundation.AVPlayerItem {
   final public var passOnObject: Any?
-  weak final public var delegate: ShopLiveShortformSDK.SLMP4CachingPlayerItemDelegate?
+  weak final public var delegate: (any ShopLiveShortformSDK.SLMP4CachingPlayerItemDelegate)?
   convenience public init(url: Foundation.URL, avUrlAssetOptions: [Swift.String : Any]? = nil)
   convenience public init(url: Foundation.URL, customFileExtension: Swift.String, avUrlAssetOptions: [Swift.String : Any]? = nil)
   public init(url: Foundation.URL, saveFilePath: Swift.String, customFileExtension: Swift.String?, avUrlAssetOptions: [Swift.String : Any]? = nil)
@@ -37,14 +37,22 @@ import _StringProcessing
 }
 @objc public protocol ShopLiveShortformReceiveHandlerDelegate {
   @objc optional func handleShare(shareUrl: Swift.String)
-  @objc optional func onError(error: Swift.Error)
+  @objc optional func onError(error: any Swift.Error)
   @objc optional func onEvent(command: Swift.String, payload: Swift.String?)
+}
+public protocol ShopLiveShortformNativeHandlerDelegate : AnyObject {
+  func handleProductItem(url: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetail)
+  func handleProductBanner(url: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetail)
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   @_hasMissingDesignatedInitializers final public class ShortsReceiveInterface {
-    public static func setHandler(_ handler: ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate?)
+    public static func setHandler(_ handler: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+    public static func setNativeHandler(_ handler: (any ShopLiveShortformSDK.ShopLiveShortformNativeHandlerDelegate)?)
     @objc deinit
   }
+}
+public protocol ShopLiveShortformListViewDelegate : ObjectiveC.NSObject {
+  func onListViewError(error: any Swift.Error)
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   public enum CardViewType {
@@ -65,25 +73,39 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
       get
     }
   }
+  public enum PlayableType {
+    case FIRST
+    case CENTER
+    case ALL
+    public static func == (a: ShopLiveShortformSDK.ShopLiveShortform.PlayableType, b: ShopLiveShortformSDK.ShopLiveShortform.PlayableType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
 }
+public struct ShortsDetail : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum ShortformError : Swift.Error {
   case statusCode(Swift.Int)
   case invalidConfig
-  case other(Swift.Error)
+  case other(any Swift.Error)
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   @_hasMissingDesignatedInitializers final public class BridgeInterface {
@@ -92,13 +114,16 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public static func disconnect()
     @objc deinit
   }
+}
+extension ShopLiveShortformSDK.ShopLiveShortform {
   public struct ShortsBridgeModel : Swift.Codable {
-    public func encode(to encoder: Swift.Encoder) throws
-    public init(from decoder: Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
   }
 }
 @_hasMissingDesignatedInitializers public class ShopLiveShortform {
   public static func close()
+  public static func getShopliveWindow() -> UIKit.UIWindow?
   @objc deinit
 }
 extension Swift.Error {
@@ -117,7 +142,7 @@ public protocol SLShortsVideoPlayerDelegate : AnyObject {
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   @objc @_inheritsConvenienceInitializers open class VideoPlayer : ObjectiveC.NSObject {
-    weak public var playerDelegate: ShopLiveShortformSDK.SLShortsVideoPlayerDelegate?
+    weak public var playerDelegate: (any ShopLiveShortformSDK.SLShortsVideoPlayerDelegate)?
     public var timeUpdateInterval: Swift.Double
     public func setShortsVideo(video: ShopLiveShortformSDK.ShopLiveShortform.ShortsVideo)
     @objc override dynamic public init()
@@ -134,8 +159,15 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   }
 }
-extension Swift.String {
-  public func loadJson(completion: @escaping (Swift.Result<Foundation.Data, Swift.Error>) -> Swift.Void)
+final public class Bindable<T> {
+  final public var listener: ((T) -> Swift.Void)?
+  final public var value: T {
+    get
+    set
+  }
+  public init(_ value: T)
+  final public func bind(listener: ((T) -> Swift.Void)?)
+  @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   public class ShortsVideo {
@@ -161,7 +193,26 @@ public class ListViewBaseBuilder {
   final public func setCellSpacing(spacing: CoreFoundation.CGFloat)
   final public func setScrollContentOffset(offset: CoreFoundation.CGFloat)
   final public func getScrollContentOffset() -> CoreFoundation.CGPoint
+  final public func setPlayableType(type: ShopLiveShortformSDK.ShopLiveShortform.PlayableType)
   @objc deinit
+}
+extension ShopLiveShortformSDK.ShopLiveShortform {
+  public struct ShortsModel : ShopliveSDKCommon.BaseResponsable, Swift.Equatable {
+    public var _s: Swift.Int?
+    public var _e: Swift.String?
+    public var _d: Swift.String?
+    public init(from decoder: any Swift.Decoder) throws
+    public static func == (lhs: ShopLiveShortformSDK.ShopLiveShortform.ShortsModel, rhs: ShopLiveShortformSDK.ShopLiveShortform.ShortsModel) -> Swift.Bool
+    public var validate: Swift.Bool {
+      get
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+}
+extension ShopLiveShortformSDK.ShopLiveShortform.ShortsModel {
+  public var overlayUrl: Foundation.URL? {
+    get
+  }
 }
 public enum SLMP4CachingPlayerItemConfiguration {
   public static var downloadBufferLimit: Swift.Int
@@ -169,7 +220,14 @@ public enum SLMP4CachingPlayerItemConfiguration {
   public static var shouldVerifyDownloadedFileSize: Swift.Bool
   public static var minimumExpectedFileSize: Swift.Int
 }
+@_hasMissingDesignatedInitializers public class ShortFormConfigurationInfosManager {
+  public static let shared: ShopLiveShortformSDK.ShortFormConfigurationInfosManager
+  public func getBaseUrl() -> Swift.String
+  @objc deinit
+}
 extension ShopLiveShortformSDK.ShopLiveShortform.CardViewType : Swift.Equatable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.CardViewType : Swift.Hashable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.ListViewType : Swift.Equatable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.ListViewType : Swift.Hashable {}
+extension ShopLiveShortformSDK.ShopLiveShortform.PlayableType : Swift.Equatable {}
+extension ShopLiveShortformSDK.ShopLiveShortform.PlayableType : Swift.Hashable {}

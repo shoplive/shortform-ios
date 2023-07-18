@@ -11,17 +11,21 @@ let package = Package(
     products: [
         .library(
             name: "ShopliveShortformSDK",
-            targets: ["ShopLiveShortformSDK","ShopLiveSDKCommonTarget"]),
+            targets: ["ShopLiveShortformSDK","ShopLiveSDKCommonTarget","FFmpegTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.0")),
+        .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.1")),
+        .package(url: "https://github.com/shoplive/ffmpeg-kit-spm.git", .exact("5.1.2"))
     ],
     targets: [
         .binaryTarget(name: "ShopLiveShortformSDK",
                       path: "./Frameworks/ShopLiveShortformSDK.xcframework"),
         
         .target(name: "ShopLiveSDKCommonTarget",
-                dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")])
+                dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")]),
+        
+        .target(name: "FFmpegTarget",
+                dependencies: [.product(name: "ffmpegkit", package: "ffmpeg-kit-spm")])
     ]
 )
 
