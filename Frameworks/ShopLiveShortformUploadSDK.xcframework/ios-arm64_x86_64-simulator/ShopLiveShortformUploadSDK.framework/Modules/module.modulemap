@@ -1,0 +1,11 @@
+framework module ShopLiveShortformUploadSDK {
+  umbrella header "ShopLiveShortformUploadSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ShopLiveShortformUploadSDK.Swift {
+  header "ShopLiveShortformUploadSDK-Swift.h"
+  requires objc
+}

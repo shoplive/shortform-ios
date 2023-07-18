@@ -12,6 +12,8 @@ let package = Package(
         .library(
             name: "ShopliveShortformSDK",
             targets: ["ShopLiveShortformSDK","ShopLiveSDKCommonTarget","FFmpegKitTarget"]),
+        .library(name: "ShopliveShortformUploadSDK",
+                 targets: ["ShopLiveShortformSDK","ShopLiveShortformUploadSDK","ShopLiveSDKCommonTarget","FFmpegKitTarget"])
     ],
     dependencies: [
         .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.1")),
@@ -20,6 +22,8 @@ let package = Package(
     targets: [
         .binaryTarget(name: "ShopLiveShortformSDK",
                       path: "./Frameworks/ShopLiveShortformSDK.xcframework"),
+        .binaryTarget(name: "ShopLiveShortformSDK",
+                      path: "./Frameworks/ShopLiveShortformUploadSDK.xcframework"),
         
         .target(name: "ShopLiveSDKCommonTarget",
                 dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")]),
