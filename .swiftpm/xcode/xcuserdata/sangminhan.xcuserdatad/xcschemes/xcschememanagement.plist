@@ -22,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FFmpegKitTarget</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ShopLiveSDKCommon</key>
 		<dict>
 			<key>primary</key>
