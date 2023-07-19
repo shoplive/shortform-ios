@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ShopliveShortformSDK"
-  spec.version      = "1.4.2"
+  spec.version      = "1.4.1"
   spec.summary      = "ShopLive Shortform Framework for iOS"
 
   spec.homepage     = "http://shoplive.cloud"
@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '11.0'
   spec.swift_version = "5"
   spec.vendored_frameworks = 'Frameworks/ShopLiveShortformSDK.xcframework'
-  spec.dependency "ShopliveSDKCommon", "1.4.0"
+  spec.dependency "ShopliveSDKCommon", "1.4.1"
 end
