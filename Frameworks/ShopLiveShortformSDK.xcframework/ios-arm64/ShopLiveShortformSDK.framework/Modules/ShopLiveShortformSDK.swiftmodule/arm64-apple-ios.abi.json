@@ -13406,392 +13406,392 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10055,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
-      "kind": "StringLiteral",
-      "offset": 10190,
+      "offset": 10091,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10326,
+      "offset": 10161,
+      "length": 14,
+      "value": "\"productModel\""
+    },
+    {
+      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 10432,
       "length": 42,
       "value": "\"ON_CHANGED_SHORTFORM_DETAIL_PLAYER_SHOWN\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10382,
+      "offset": 10488,
       "length": 9,
       "value": "\"isShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "BooleanLiteral",
-      "offset": 10393,
+      "offset": 10499,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10399,
+      "offset": 10505,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10537,
+      "offset": 10638,
       "length": 25,
       "value": "\"moveToProductBannerPage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10633,
+      "offset": 10764,
       "length": 8,
       "value": "\"scheme\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10784,
+      "offset": 10828,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10926,
+      "offset": 11016,
       "length": 42,
       "value": "\"ON_CHANGED_SHORTFORM_DETAIL_PLAYER_SHOWN\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 10982,
+      "offset": 11072,
       "length": 9,
       "value": "\"isShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "BooleanLiteral",
-      "offset": 10993,
+      "offset": 11083,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11000,
+      "offset": 11090,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11138,
+      "offset": 11206,
       "length": 19,
       "value": "\"closeShortsDetail\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11208,
+      "offset": 11276,
       "length": 9,
       "value": "\"isShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "BooleanLiteral",
-      "offset": 11219,
+      "offset": 11287,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11279,
+      "offset": 11347,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11327,
+      "offset": 11395,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11402,
+      "offset": 11470,
       "length": 42,
       "value": "\"ON_CHANGED_SHORTFORM_DETAIL_PLAYER_SHOWN\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11527,
+      "offset": 11595,
       "length": 18,
       "value": "\"showShortsDetail\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11596,
+      "offset": 11664,
       "length": 9,
       "value": "\"isShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "BooleanLiteral",
-      "offset": 11607,
+      "offset": 11675,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11666,
+      "offset": 11734,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11714,
+      "offset": 11782,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11789,
+      "offset": 11857,
       "length": 42,
       "value": "\"ON_CHANGED_SHORTFORM_DETAIL_PLAYER_SHOWN\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 11913,
+      "offset": 11981,
       "length": 22,
       "value": "\"onChangedUserAuthSdk\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 12221,
+      "offset": 12289,
       "length": 14,
       "value": "\"previewShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 12296,
+      "offset": 12364,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 12533,
+      "offset": 12601,
       "length": 14,
       "value": "\"clickPreview\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 12608,
+      "offset": 12676,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 12858,
+      "offset": 12926,
       "length": 15,
       "value": "\"previewHidden\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 12934,
+      "offset": 13002,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 13172,
+      "offset": 13240,
       "length": 14,
       "value": "\"previewClose\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 13247,
+      "offset": 13315,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 13727,
+      "offset": 13795,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 14119,
+      "offset": 14187,
       "length": 14,
       "value": "\"closePreview\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 15986,
+      "offset": 16054,
       "length": 21,
       "value": "\"shopliveShortsEvent\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 16069,
+      "offset": 16137,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 16740,
+      "offset": 16808,
       "length": 9,
       "value": "\"onError\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 16776,
+      "offset": 16844,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 17070,
+      "offset": 17138,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 17132,
+      "offset": 17200,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 17591,
+      "offset": 17659,
       "length": 9,
       "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 18433,
+      "offset": 18501,
       "length": 42,
       "value": "\"ON_CHANGED_SHORTFORM_DETAIL_PLAYER_SHOWN\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 18489,
+      "offset": 18557,
       "length": 9,
       "value": "\"isShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "BooleanLiteral",
-      "offset": 18500,
+      "offset": 18568,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 18506,
+      "offset": 18574,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 18541,
+      "offset": 18609,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 18665,
+      "offset": 18733,
       "length": 4,
       "value": "\"ak\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 18915,
+      "offset": 18983,
       "length": 22,
       "value": "\"onChangedUserAuthSdk\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "Array",
-      "offset": 20196,
+      "offset": 20264,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 22061,
+      "offset": 22129,
       "length": 62,
       "value": "\"window.cloud.shoplive.ExternalMessageManager.send('\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 22121,
+      "offset": 22189,
       "length": 2,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 22228,
+      "offset": 22296,
       "length": 17,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 22244,
+      "offset": 22312,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveBridgeInterface.swift",
       "kind": "StringLiteral",
-      "offset": 22296,
+      "offset": 22364,
       "length": 4,
       "value": "\");\""
     },
