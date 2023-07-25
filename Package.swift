@@ -14,20 +14,14 @@ let package = Package(
             targets: ["ShopLiveShortformSDK","ShopLiveShortformUploadSDK","ShopLiveSDKCommonTarget","FFmpegKitTarget"])
     ],
     dependencies: [
-        .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.1")),
-        .package(url: "https://github.com/shoplive/ffmpeg-kit-spm.git", .exact("5.1.2"))
+        .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.4"))
     ],
     targets: [
         .binaryTarget(name: "ShopLiveShortformSDK",
                       path: "./Frameworks/ShopLiveShortformSDK.xcframework"),
-        .binaryTarget(name: "ShopLiveShortformUploadSDK",
-                      path: "./Frameworks/ShopLiveShortformUploadSDK.xcframework"),
         
         .target(name: "ShopLiveSDKCommonTarget",
-                dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")]),
-        
-        .target(name: "FFmpegKitTarget",
-                dependencies: [.product(name: "FFmpeg-Kit", package: "ffmpeg-kit-spm")])
+                dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")])
     ]
 )
 

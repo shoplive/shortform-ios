@@ -12,7 +12,7 @@ SPM을 사용하여 다운로드 받을시 `Package.swift`파일의 `dependencie
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/shoplive/shortform-ios", .upToNextMajor(from: "1.4.3"))
+    .package(url: "https://github.com/shoplive/shortform-ios", .upToNextMajor(from: "1.4.4"))
 ]
 ```
 

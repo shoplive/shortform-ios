@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ShopliveShortformSDK"
-  spec.version      = "1.4.1"
+  spec.version      = "1.4.4"
   spec.summary      = "ShopLive Shortform Framework for iOS"
 
   spec.homepage     = "http://shoplive.cloud"
@@ -13,10 +13,9 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Shoplive" => "shoplive-eng@shoplive.cloud" }
   spec.platform     = :ios
-  spec.ios.deployment_target = '12.1'
+  spec.ios.deployment_target = '11'
   spec.swift_version = "5"
-  spec.vendored_frameworks = 'Frameworks/ShopLiveShortformSDK.xcframework' , 'Frameworks/ShopLiveShortformUploadSDK.xcframework'
-  spec.dependency "ShopliveSDKCommon", "1.4.1"
-  spec.dependency "ffmpeg-kit-ios-min-gpl", "5.1"
+  spec.vendored_frameworks = 'Frameworks/ShopLiveShortformSDK.xcframework'
+  spec.dependency "ShopliveSDKCommon", "1.4.4"
   
 end

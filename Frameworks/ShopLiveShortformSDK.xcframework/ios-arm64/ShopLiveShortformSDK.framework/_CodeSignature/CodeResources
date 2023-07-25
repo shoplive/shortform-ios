@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		I76+8oP3FGgAeiLUxxgqDzplc3M=
+		gzR+ZxOI28ptYS6CJG8MJJELGHc=
 		</data>
 		<key>Headers/ShopLiveShortformSDK-Swift.h</key>
 		<data>
@@ -14,32 +14,50 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Izosu+KRvaSy5uVTPbOmCHEQtQo=
+		cct/pvSgwYHE/b+q+UP8XsWpCP8=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		JhPRriZg9hhlStRv9iypjk+2gPI=
+		g6eVpdNZhKt3rrKUJn7woDaOBqA=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zC4HgTnZo6prUC/LOg/l6a/xfrg=
+		ma/4sme82PAyh/rSlYci793EWB4=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		YOd8yRanilBHFf4EKPYdB++6FBM=
+		wk/DWTG2mmxEhpoRJVlO/bGqfMI=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zC4HgTnZo6prUC/LOg/l6a/xfrg=
+		ma/4sme82PAyh/rSlYci793EWB4=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ngAql4QkZ4StDVsq/4pjlW/N/EY=
+		Kx2pttmN6rwCnBGOTgTQahHvKdY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Hyja5Hr3iDljzAaRvAz1rl9gicA=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qnPENaP578V/GCUcZwZWJlyfomc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ko.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KecCWR99xKvPX2v/DtwZEyRvjsw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -47,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jHQD2cdN8EKZ/01Hpzaox2Z8t7Yz/42VZ0v4UxWNWDU=
+			qRY4CxS6Z40kfnS8PKfymodEOPjgPrDMI7K2jcZUN0E=
 			</data>
 		</dict>
 		<key>Headers/ShopLiveShortformSDK-Swift.h</key>
@@ -61,35 +79,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ooDckjrVOP+MThxf4SIvUC7MXnGO35NegZi4rdHcGSI=
+			l8NRwYNbx1LbirTUeEE/s2O3lScpu75ECsjSG9ngRns=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OgXzVxEnTjJ0j99rYhfh0/orwwHNBavTj5ZgHHrb6lo=
+			nTLtbJeJcgKyvDDrlIfFJfOkfkikyjm2jod9t/kyBCI=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/HajIpK4UPDqNhpoQQxM3dy764gGf2HPE65yrjotfR4=
+			tMx61kjrqi0WCOOnzm3ikMrY1cPubxbxIzTXmRrVqt0=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OgXzVxEnTjJ0j99rYhfh0/orwwHNBavTj5ZgHHrb6lo=
+			nTLtbJeJcgKyvDDrlIfFJfOkfkikyjm2jod9t/kyBCI=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XV4Wih31SRDAodyQPlsFCJOegcX87ffHadiHET6d5BY=
+			VUTHayh+FoZ2as/m4tiidQ5/3F/tUduPdryIVUwOSQo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -98,6 +116,24 @@
 			<data>
 			oprO2uaAMDmBP8ES3s9MC15m/5iLnFLIGhQVbU/sdSw=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fXQY5VnW9obxRAFupkn/Do8J7n4KWDgd0zDjiDFO8mI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ko.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DsEvYQ0+deqfpBr0sALFdGKogenfCT/e2wqPsLYFcpA=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

@@ -4,8 +4,8 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
-import CryptoKit
 import Foundation
+import QuartzCore
 import ShopliveSDKCommon
 import Swift
 import UIKit
@@ -41,8 +41,8 @@ import _StringProcessing
   @objc optional func onEvent(command: Swift.String, payload: Swift.String?)
 }
 public protocol ShopLiveShortformNativeHandlerDelegate : AnyObject {
-  func handleProductItem(url: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetail)
-  func handleProductBanner(url: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetail)
+  func handleProductItem(shortsId: Swift.String, shortsSrn: Swift.String, product: ShopLiveShortformSDK.Product)
+  func handleProductBanner(shortsId: Swift.String, shortsSrn: Swift.String, scheme: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetail)
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   @_hasMissingDesignatedInitializers final public class ShortsReceiveInterface {
@@ -85,20 +85,31 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
 }
 public struct ShortsDetail : Swift.Codable {
+  public let title: Swift.String?
+  public let description: Swift.String?
+  public let tags: [Swift.String]?
+  public let productCount: Swift.Int?
+  public let productBanner: ShopLiveShortformSDK.ProductBanner?
+  public let products: [ShopLiveShortformSDK.Product]?
+  public let brand: ShopLiveShortformSDK.BrandModel?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BrandModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -106,6 +117,16 @@ public enum ShortformError : Swift.Error {
   case statusCode(Swift.Int)
   case invalidConfig
   case other(any Swift.Error)
+}
+@_hasMissingDesignatedInitializers public class ShopLiveShortformCollectionData {
+  @objc deinit
+}
+public struct ProductBanner : Swift.Codable {
+  public let title: Swift.String?
+  public let imageUrl: Swift.String?
+  public let scheme: Swift.String?, traceId: Swift.String?, type: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   @_hasMissingDesignatedInitializers final public class BridgeInterface {
@@ -115,13 +136,11 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     @objc deinit
   }
 }
-extension ShopLiveShortformSDK.ShopLiveShortform {
-  public struct ShortsBridgeModel : Swift.Codable {
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
-}
 @_hasMissingDesignatedInitializers public class ShopLiveShortform {
+  public static var sdkVersion: Swift.String
+  public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
+  public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
+  public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
   public static func close()
   public static func getShopliveWindow() -> UIKit.UIWindow?
   @objc deinit
@@ -181,6 +200,33 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public func getVideoSize() -> CoreFoundation.CGSize?
   }
 }
+public struct Product : Swift.Codable {
+  public let brand: Swift.String?
+  public let productId: Swift.Int?
+  public let customerProductId: Swift.Int?
+  public let name: Swift.String?
+  public let description: Swift.String?
+  public let url: Swift.String?
+  public let sku: Swift.String?
+  public let imageUrl: Swift.String?
+  public let currency: Swift.String?
+  public let showPrice: Swift.Bool?
+  public let originalPrice: Swift.Double?
+  public let discountPrice: Swift.Double?
+  public let discountRate: Swift.Double?
+  public let stockStatus: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public enum ShopLiveTagSearchOperator : Swift.String {
+  case AND
+  case OR
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public class ListViewBaseBuilder {
   public init()
   final public func setCardViewType(type: ShopLiveShortformSDK.ShopLiveShortform.CardViewType)
@@ -194,6 +240,19 @@ public class ListViewBaseBuilder {
   final public func setScrollContentOffset(offset: CoreFoundation.CGFloat)
   final public func getScrollContentOffset() -> CoreFoundation.CGPoint
   final public func setPlayableType(type: ShopLiveShortformSDK.ShopLiveShortform.PlayableType)
+  final public func reloadItems()
+  final public func setVisibleViewCount(isVisible: Swift.Bool)
+  final public func submit()
+  @objc deinit
+}
+extension ShopLiveShortformSDK.ListViewBaseBuilder {
+  final public func enableShuffle()
+  final public func disableShuffle()
+  final public func setHashTags(tags: [Swift.String]?, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?)
+  final public func setBrands(brands: [Swift.String]?)
+}
+public class ShopLiveShortformRelatedData {
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, productId: Swift.Int? = nil, customerProductId: Swift.Int? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
@@ -231,3 +290,6 @@ extension ShopLiveShortformSDK.ShopLiveShortform.ListViewType : Swift.Equatable 
 extension ShopLiveShortformSDK.ShopLiveShortform.ListViewType : Swift.Hashable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.PlayableType : Swift.Equatable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.PlayableType : Swift.Hashable {}
+extension ShopLiveShortformSDK.ShopLiveTagSearchOperator : Swift.Equatable {}
+extension ShopLiveShortformSDK.ShopLiveTagSearchOperator : Swift.Hashable {}
+extension ShopLiveShortformSDK.ShopLiveTagSearchOperator : Swift.RawRepresentable {}
