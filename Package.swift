@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "ShopliveShortformSDK",
-            targets: ["ShopLiveShortformSDK","ShopLiveShortformUploadSDK","ShopLiveSDKCommonTarget","FFmpegKitTarget"])
+            targets: ["ShopLiveShortformSDK","ShopLiveSDKCommonTarget"])
     ],
     dependencies: [
         .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.4"))

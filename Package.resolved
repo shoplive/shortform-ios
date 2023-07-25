@@ -6,17 +6,8 @@
         "repositoryURL": "https://github.com/shoplive/common-ios.git",
         "state": {
           "branch": null,
-          "revision": "cd20c6ea9680cf78056b202a555459b8f14b29d0",
-          "version": "1.4.1"
-        }
-      },
-      {
-        "package": "ffmpeg-kit-spm",
-        "repositoryURL": "https://github.com/shoplive/ffmpeg-kit-spm.git",
-        "state": {
-          "branch": null,
-          "revision": "64cec51808513cecb370df28a68aee8ecb26c082",
-          "version": "5.1.2"
+          "revision": "0f249697f33103ce081c4fdc1f708d77c119f6fb",
+          "version": "1.4.4"
         }
       }
     ]
