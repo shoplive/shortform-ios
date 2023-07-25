@@ -252,7 +252,7 @@ extension ShopLiveShortformSDK.ListViewBaseBuilder {
   final public func setBrands(brands: [Swift.String]?)
 }
 public class ShopLiveShortformRelatedData {
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, productId: Swift.Int? = nil, customerProductId: Swift.Int? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, productId: Swift.Int? = nil, customerProductId: Swift.String? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
