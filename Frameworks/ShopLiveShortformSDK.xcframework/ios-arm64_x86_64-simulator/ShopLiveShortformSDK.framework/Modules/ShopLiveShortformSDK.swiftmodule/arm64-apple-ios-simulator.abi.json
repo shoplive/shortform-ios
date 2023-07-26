@@ -18313,49 +18313,49 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 40118,
+      "offset": 40169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 40162,
+      "offset": 40213,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 40376,
+      "offset": 40427,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40439,
+      "offset": 40490,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 40615,
+      "offset": 40718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 40880,
+      "offset": 40983,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40943,
+      "offset": 41046,
       "length": 1,
       "value": "0"
     },
@@ -18369,534 +18369,527 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 46250,
+      "offset": 46353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 46698,
+      "offset": 46801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 46913,
+      "offset": 47016,
       "length": 12,
       "value": "\"activePage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 46952,
+      "offset": 47055,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 46964,
+      "offset": 47067,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 47250,
+      "offset": 47353,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 47725,
+      "offset": 47828,
       "length": 11,
       "value": "\"enableTap\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 47763,
+      "offset": 47866,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 48398,
+      "offset": 48501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 48483,
+      "offset": 48586,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 48820,
+      "offset": 48923,
       "length": 6,
       "value": "\"mute\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 48985,
+      "offset": 49088,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49113,
+      "offset": 49216,
       "length": 13,
       "value": "\"handleShare\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49140,
+      "offset": 49243,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49525,
+      "offset": 49628,
       "length": 12,
       "value": "\"activePage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49564,
+      "offset": 49667,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49576,
+      "offset": 49679,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49793,
+      "offset": 49896,
       "length": 22,
       "value": "\"requestShortsPreview\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49829,
+      "offset": 49932,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49870,
+      "offset": 49973,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 49913,
+      "offset": 50016,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50029,
+      "offset": 50132,
       "length": 19,
       "value": "\"closeShortsDetail\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50062,
+      "offset": 50165,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50095,
+      "offset": 50198,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50344,
+      "offset": 50447,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50409,
+      "offset": 50512,
       "length": 9,
       "value": "\"product\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50504,
+      "offset": 50607,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50525,
+      "offset": 50628,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50566,
+      "offset": 50669,
       "length": 10,
       "value": "\"shortsId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50592,
+      "offset": 50695,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50739,
+      "offset": 50842,
       "length": 19,
       "value": "\"moveToProductPage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50847,
+      "offset": 50950,
       "length": 10,
       "value": "\"shortsId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50870,
+      "offset": 50973,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 50883,
+      "offset": 50986,
       "length": 14,
       "value": "\"productModel\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51109,
+      "offset": 51212,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51183,
+      "offset": 51286,
       "length": 14,
       "value": "\"shortsDetail\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51276,
+      "offset": 51379,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51297,
+      "offset": 51400,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51338,
+      "offset": 51441,
       "length": 10,
       "value": "\"shortsId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51364,
+      "offset": 51467,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51405,
+      "offset": 51508,
       "length": 8,
       "value": "\"scheme\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51429,
+      "offset": 51532,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51590,
+      "offset": 51693,
       "length": 25,
       "value": "\"moveToProductBannerPage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51706,
+      "offset": 51809,
       "length": 8,
       "value": "\"scheme\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51725,
+      "offset": 51828,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51738,
+      "offset": 51841,
       "length": 10,
       "value": "\"shortsId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 51761,
+      "offset": 51864,
       "length": 14,
       "value": "\"shortsDetail\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 52484,
+      "offset": 52587,
       "length": 12,
       "value": "\"activePage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 52523,
+      "offset": 52626,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 52535,
+      "offset": 52638,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 52649,
+      "offset": 52752,
       "length": 14,
       "value": "\"previewShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 52690,
+      "offset": 52793,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 52732,
+      "offset": 52835,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 52946,
+      "offset": 53049,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53005,
+      "offset": 53108,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53119,
+      "offset": 53222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53177,
+      "offset": 53280,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53214,
+      "offset": 53317,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53353,
+      "offset": 53456,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53535,
+      "offset": 53638,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 53650,
+      "offset": 53753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 54025,
+      "offset": 54128,
       "length": 12,
       "value": "\"activePage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 54064,
+      "offset": 54167,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 54076,
+      "offset": 54179,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 54378,
+      "offset": 54481,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 54819,
+      "offset": 54922,
       "length": 19,
       "value": "\"onChangedAppState\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 54865,
+      "offset": 54968,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 54877,
+      "offset": 54980,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 54886,
+      "offset": 54989,
       "length": 12,
       "value": "\"foreground\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 55112,
+      "offset": 55215,
       "length": 19,
       "value": "\"onChangedAppState\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 55158,
+      "offset": 55261,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 55170,
+      "offset": 55273,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 55179,
+      "offset": 55282,
       "length": 12,
       "value": "\"background\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55553,
+      "offset": 55656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 55619,
+      "offset": 55722,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 56364,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
@@ -18908,7 +18901,14 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 56534,
+      "offset": 56570,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/FullTypelist\/ShortsCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 56637,
       "length": 5,
       "value": "false"
     },
