@@ -109,6 +109,11 @@ public struct ShortsDetail : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@_hasMissingDesignatedInitializers public class ShortFormConfigurationInfosManager {
+  public static let shared: ShopLiveShortformSDK.ShortFormConfigurationInfosManager
+  public func getBaseUrl() -> Swift.String
+  @objc deinit
+}
 public struct BrandModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -118,7 +123,15 @@ public enum ShortformError : Swift.Error {
   case invalidConfig
   case other(any Swift.Error)
 }
-@_hasMissingDesignatedInitializers public class ShopLiveShortformCollectionData {
+public class ShopLiveShortformCollectionData {
+  public var reference: Swift.String?
+  public var shortsId: Swift.String?
+  public var shortsSrn: Swift.String?
+  public var tags: [Swift.String]?
+  public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
+  public var brands: [Swift.String]?
+  public var shuffle: Swift.Bool?
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
   @objc deinit
 }
 public struct ProductBanner : Swift.Codable {
@@ -252,6 +265,18 @@ extension ShopLiveShortformSDK.ListViewBaseBuilder {
   final public func setBrands(brands: [Swift.String]?)
 }
 public class ShopLiveShortformRelatedData {
+  public var reference: Swift.String?
+  public var shortsId: Swift.String?
+  public var shortsSrn: Swift.String?
+  public var productId: Swift.Int?
+  public var customerProductId: Swift.String?
+  public var name: Swift.String?
+  public var sku: Swift.String?
+  public var url: Swift.String?
+  public var tags: [Swift.String]?
+  public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
+  public var brands: [Swift.String]?
+  public var shuffle: Swift.Bool?
   public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, productId: Swift.Int? = nil, customerProductId: Swift.String? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
   @objc deinit
 }
@@ -278,11 +303,6 @@ public enum SLMP4CachingPlayerItemConfiguration {
   public static var readDataLimit: Swift.Int
   public static var shouldVerifyDownloadedFileSize: Swift.Bool
   public static var minimumExpectedFileSize: Swift.Int
-}
-@_hasMissingDesignatedInitializers public class ShortFormConfigurationInfosManager {
-  public static let shared: ShopLiveShortformSDK.ShortFormConfigurationInfosManager
-  public func getBaseUrl() -> Swift.String
-  @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform.CardViewType : Swift.Equatable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.CardViewType : Swift.Hashable {}
