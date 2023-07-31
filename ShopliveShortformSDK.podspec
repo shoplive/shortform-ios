@@ -16,6 +16,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '11'
   spec.swift_version = "5"
   spec.vendored_frameworks = 'Frameworks/ShopLiveShortformSDK.xcframework'
-  spec.dependency "ShopliveSDKCommon", "1.4.5"
+  # spec.dependency "ShopliveSDKCommon", "1.4.5"
   
 end

@@ -11,17 +11,12 @@ let package = Package(
     products: [
         .library(
             name: "ShopliveShortformSDK",
-            targets: ["ShopLiveShortformSDK","ShopLiveSDKCommonTarget"])
+            targets: ["ShopLiveShortformSDK"])
     ],
-    dependencies: [
-        .package(url: "https://github.com/shoplive/common-ios.git", .exact("1.4.5"))
-    ],
+    
     targets: [
         .binaryTarget(name: "ShopLiveShortformSDK",
-                      path: "./Frameworks/ShopLiveShortformSDK.xcframework"),
-        
-        .target(name: "ShopLiveSDKCommonTarget",
-                dependencies: [.product(name: "ShopliveSDKCommon", package: "common-ios")])
+                      path: "./Frameworks/ShopLiveShortformSDK.xcframework")
     ]
 )
 
