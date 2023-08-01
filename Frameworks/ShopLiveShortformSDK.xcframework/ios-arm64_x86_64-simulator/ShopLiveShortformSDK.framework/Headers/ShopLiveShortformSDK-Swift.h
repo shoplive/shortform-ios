@@ -262,6 +262,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import AVFoundation;
 @import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -313,10 +314,17 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK30SLMP4CachingPlayerItemDelegate_")
 @end
 
 
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
+@interface ShopLiveShareMetaData : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDelegate_")
 @protocol ShopLiveShortformReceiveHandlerDelegate
 @optional
 - (void)handleShareWithShareUrl:(NSString * _Nonnull)shareUrl;
+- (void)handleShareWithShareMetadata:(ShopLiveShareMetaData * _Nonnull)shareMetadata;
 - (void)onErrorWithError:(NSError * _Nonnull)error;
 - (void)onEventWithCommand:(NSString * _Nonnull)command payload:(NSString * _Nullable)payload;
 @end
@@ -595,6 +603,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import AVFoundation;
 @import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -646,10 +655,17 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK30SLMP4CachingPlayerItemDelegate_")
 @end
 
 
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
+@interface ShopLiveShareMetaData : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDelegate_")
 @protocol ShopLiveShortformReceiveHandlerDelegate
 @optional
 - (void)handleShareWithShareUrl:(NSString * _Nonnull)shareUrl;
+- (void)handleShareWithShareMetadata:(ShopLiveShareMetaData * _Nonnull)shareMetadata;
 - (void)onErrorWithError:(NSError * _Nonnull)error;
 - (void)onEventWithCommand:(NSString * _Nonnull)command payload:(NSString * _Nullable)payload;
 @end

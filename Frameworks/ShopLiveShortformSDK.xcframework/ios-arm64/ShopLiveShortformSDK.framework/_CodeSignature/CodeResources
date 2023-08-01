@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ShopLiveShortformSDK-Swift.h</key>
 		<data>
-		VCI6kbmi+8lQb084UtWdF+DvwCE=
+		8ZVNTtjGd/T5n+F0tMypiffb8zg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		b4bRRj/ZAXdGnyWhJpfMxfsFSXA=
+		HhUjlJBcO4dUF1yQJBnRguU6g4Q=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		/iup7AK17aJ4RLxVfqVWINs5Uy0=
+		1vwCAjKTapjRp8t9iAjQe7P6Vxk=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		/iup7AK17aJ4RLxVfqVWINs5Uy0=
+		1vwCAjKTapjRp8t9iAjQe7P6Vxk=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TAio3Qmsxw0NQG3u4KwSJdxa5ok=
+		Eleumbdj3KHaqhVWhObako6ff38=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,21 +72,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hbyJYboXo5DgBfiW8OA1U5TlOOmF2FtZ2DGIU6Xd+WU=
+			6OJNDzEiZRwJkzJTBi/yTnydMckoxvv+JY4UB8hPoRc=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			claXobW5tXvoBnlFPQqHddcvNKeNH4zO5bsXcXKQIJ0=
+			uQnPXW9dFLSG0yGo5Mpe+uZt1XPfurmfohNeg1H/M60=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tAawH+iolnRQFrLf/1GdEVGZ+w5gTtAe2SkK0Ko+L00=
+			nlGgDd9CHQnmBQPcaluDfZE5IV3AfmHHmW5hGrkzh0U=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tAawH+iolnRQFrLf/1GdEVGZ+w5gTtAe2SkK0Ko+L00=
+			nlGgDd9CHQnmBQPcaluDfZE5IV3AfmHHmW5hGrkzh0U=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rs00hZ6P0R4UtoBDs6dhlIWg7D9W6n6qJ6Gjm9iG8sA=
+			baP7uQ3DT752LdQWwTMh9hxQ/mvmHBuWJb7qi9KMnUc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

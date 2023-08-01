@@ -37,6 +37,7 @@ import _StringProcessing
 }
 @objc public protocol ShopLiveShortformReceiveHandlerDelegate {
   @objc optional func handleShare(shareUrl: Swift.String)
+  @objc optional func handleShare(shareMetadata: ShopLiveShortformSDK.ShopLiveShareMetaData)
   @objc optional func onError(error: any Swift.Error)
   @objc optional func onEvent(command: Swift.String, payload: Swift.String?)
 }
@@ -132,6 +133,15 @@ public class ShopLiveShortformCollectionData {
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
   public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ShopLiveShareMetaData : ObjectiveC.NSObject {
+  public var title: Swift.String?
+  public var descriptions: Swift.String?
+  public var thumbnail: Swift.String?
+  public var shortsId: Swift.String?
+  public var shortsSrn: Swift.String?
+  @objc override dynamic public init()
   @objc deinit
 }
 public struct ProductBanner : Swift.Codable {
