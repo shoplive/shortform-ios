@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "ShopliveShortformSDK",
-            targets: ["ShopLiveShortformSDK","ShopLiveShortformUploadSDK"])
+            targets: ["ShopLiveShortformSDK"])
     ],
     
     targets: [
