@@ -11,12 +11,14 @@ let package = Package(
     products: [
         .library(
             name: "ShopliveShortformSDK",
-            targets: ["ShopLiveShortformSDK"])
+            targets: ["ShopLiveShortformSDK","ShopLiveShortformUploadSDK"])
     ],
     
     targets: [
         .binaryTarget(name: "ShopLiveShortformSDK",
-                      path: "./Frameworks/ShopLiveShortformSDK.xcframework")
+                      path: "./Frameworks/ShopLiveShortformSDK.xcframework"),
+        
+        
     ]
 )
 

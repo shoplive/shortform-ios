@@ -19507,490 +19507,483 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 5817,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5878,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5882,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5928,
+      "offset": 5856,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5925,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5929,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6355,
+      "offset": 6332,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6420,
+      "offset": 6397,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6451,
+      "offset": 6428,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7373,
+      "offset": 7350,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 7403,
+      "offset": 7380,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7418,
+      "offset": 7395,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7462,
+      "offset": 7439,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 7526,
+      "offset": 7503,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 7555,
+      "offset": 7532,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7594,
+      "offset": 7571,
       "length": 9,
       "value": "\"  99+  \""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 7646,
+      "offset": 7623,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7683,
+      "offset": 7660,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7744,
+      "offset": 7721,
       "length": 21,
       "value": "\"  \""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7762,
+      "offset": 7739,
       "length": 1,
       "value": "\"  \""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 7962,
+      "offset": 7939,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 8045,
+      "offset": 8022,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 8119,
+      "offset": 8096,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 8508,
+      "offset": 8485,
       "length": 7,
       "value": "\"VIDEO\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 8782,
+      "offset": 8759,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 8854,
+      "offset": 8831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9181,
+      "offset": 9158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 9378,
+      "offset": 9355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "FloatLiteral",
-      "offset": 9411,
+      "offset": 9388,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9563,
+      "offset": 9540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 11016,
+      "offset": 10993,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11071,
+      "offset": 11048,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11115,
+      "offset": 11092,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 11638,
+      "offset": 11615,
       "length": 10,
       "value": "\"position\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 12738,
+      "offset": 12715,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13072,
+      "offset": 13049,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13104,
+      "offset": 13081,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13234,
+      "offset": 13211,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13293,
+      "offset": 13270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13333,
+      "offset": 13310,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13384,
+      "offset": 13361,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13420,
+      "offset": 13397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13445,
+      "offset": 13422,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 15547,
+      "offset": 15524,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 16220,
+      "offset": 16197,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 16383,
+      "offset": 16360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 17600,
+      "offset": 17577,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "FloatLiteral",
-      "offset": 17655,
+      "offset": 17632,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "FloatLiteral",
-      "offset": 17974,
+      "offset": 17951,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 18624,
+      "offset": 18601,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18712,
+      "offset": 18689,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18742,
+      "offset": 18719,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 18861,
+      "offset": 18838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 18902,
+      "offset": 18879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 19015,
+      "offset": 18992,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 19051,
+      "offset": 19028,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 19110,
+      "offset": 19087,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 19305,
+      "offset": 19282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 21012,
+      "offset": 20989,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21116,
+      "offset": 21093,
       "length": 10,
       "value": "\"template\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21129,
+      "offset": 21106,
       "length": 12,
       "value": "\"HORIZONTAL\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 21239,
+      "offset": 21216,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21344,
+      "offset": 21321,
       "length": 10,
       "value": "\"template\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21357,
+      "offset": 21334,
       "length": 12,
       "value": "\"HORIZONTAL\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 21470,
+      "offset": 21447,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 21582,
+      "offset": 21559,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 21666,
+      "offset": 21643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 21670,
+      "offset": 21647,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 21678,
+      "offset": 21655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 21987,
+      "offset": 21964,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 22075,
+      "offset": 22052,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/view\/shortformList\/HorizontalTypeView\/reactor\/ShopLiveShortformHorizontalTypeViewReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 22250,
+      "offset": 22227,
       "length": 5,
       "value": "false"
     },
