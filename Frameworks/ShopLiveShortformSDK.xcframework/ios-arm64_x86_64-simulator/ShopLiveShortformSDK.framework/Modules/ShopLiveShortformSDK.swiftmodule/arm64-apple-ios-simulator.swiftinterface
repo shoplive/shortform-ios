@@ -57,6 +57,7 @@ public protocol ShopLiveShortformListViewDelegate : ObjectiveC.NSObject {
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   public enum CardViewType {
+    case type0
     case type1
     case type2
     public static func == (a: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, b: ShopLiveShortformSDK.ShopLiveShortform.CardViewType) -> Swift.Bool
@@ -86,14 +87,14 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
@@ -264,8 +265,12 @@ public class ListViewBaseBuilder {
   final public func getScrollContentOffset() -> CoreFoundation.CGPoint
   final public func setPlayableType(type: ShopLiveShortformSDK.ShopLiveShortform.PlayableType)
   final public func reloadItems()
-  final public func setVisibleViewCount(isVisible: Swift.Bool)
   final public func submit()
+  final public func setVisibleViewCount(isVisible: Swift.Bool)
+  final public func setVisibleBrand(isVisible: Swift.Bool)
+  final public func setVisibleTitle(isVisisble: Swift.Bool)
+  final public func setVisibleProductCount(isVisible: Swift.Bool)
+  final public func setVisibleDescription(isVisible: Swift.Bool)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ListViewBaseBuilder {
