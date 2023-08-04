@@ -40,6 +40,8 @@ import _StringProcessing
   @objc optional func handleShare(shareMetadata: ShopLiveShortformSDK.ShopLiveShareMetaData)
   @objc optional func onError(error: any Swift.Error)
   @objc optional func onEvent(command: Swift.String, payload: Swift.String?)
+  @objc optional func onDidDisAppear()
+  @objc optional func onDidAppear()
 }
 public protocol ShopLiveShortformNativeHandlerDelegate : AnyObject {
   func handleProductItem(shortsId: Swift.String, shortsSrn: Swift.String, product: ShopLiveShortformSDK.Product)
@@ -87,14 +89,14 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, cellRadius: CoreFoundation.CGFloat = 6, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, cellRadius: CoreFoundation.CGFloat = 6, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
@@ -271,6 +273,7 @@ public class ListViewBaseBuilder {
   final public func setVisibleTitle(isVisisble: Swift.Bool)
   final public func setVisibleProductCount(isVisible: Swift.Bool)
   final public func setVisibleDescription(isVisible: Swift.Bool)
+  final public func setCellCornerRadius(radius: CoreFoundation.CGFloat)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ListViewBaseBuilder {

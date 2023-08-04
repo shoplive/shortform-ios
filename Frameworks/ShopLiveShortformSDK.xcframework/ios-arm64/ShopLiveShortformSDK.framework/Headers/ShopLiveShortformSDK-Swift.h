@@ -327,6 +327,8 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDeleg
 - (void)handleShareWithShareMetadata:(ShopLiveShareMetaData * _Nonnull)shareMetadata;
 - (void)onErrorWithError:(NSError * _Nonnull)error;
 - (void)onEventWithCommand:(NSString * _Nonnull)command payload:(NSString * _Nullable)payload;
+- (void)onDidDisAppear;
+- (void)onDidAppear;
 @end
 
 
