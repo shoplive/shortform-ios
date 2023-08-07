@@ -165,6 +165,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
 @_hasMissingDesignatedInitializers public class ShopLiveShortform {
   public static var sdkVersion: Swift.String
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
+  @available(iOS, deprecated: 1.4.6, message: "this method will be removed on 1.4.7")
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
   public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
   public static func close()
@@ -284,10 +285,7 @@ extension ShopLiveShortformSDK.ListViewBaseBuilder {
 }
 public class ShopLiveShortformRelatedData {
   public var reference: Swift.String?
-  public var shortsId: Swift.String?
-  public var shortsSrn: Swift.String?
   public var productId: Swift.Int?
-  public var customerProductId: Swift.String?
   public var name: Swift.String?
   public var sku: Swift.String?
   public var url: Swift.String?
@@ -295,7 +293,7 @@ public class ShopLiveShortformRelatedData {
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, productId: Swift.Int? = nil, customerProductId: Swift.String? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
+  public init(reference: Swift.String? = nil, productId: Swift.Int? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
