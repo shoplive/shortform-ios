@@ -89,14 +89,14 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, cellRadius: CoreFoundation.CGFloat = 6, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 16, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 20, cellRadius: CoreFoundation.CGFloat = 6, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 12, viewCountVisibility: Swift.Bool = true) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
@@ -167,7 +167,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
   @available(iOS, deprecated: 1.4.6, message: "this method will be removed on 1.4.7")
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
-  public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
+  public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData)
   public static func close()
   public static func getShopliveWindow() -> UIKit.UIWindow?
   @objc deinit
