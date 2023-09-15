@@ -13,6 +13,18 @@ import VideoToolbox
 import WebKit
 import _Concurrency
 import _StringProcessing
+extension ShopLiveShortformSDK.ShopLiveShortform {
+  public struct ShortsCollectionModel : ShopliveSDKCommon.BaseResponsable {
+    public var _s: Swift.Int?
+    public var _e: Swift.String?
+    public let srn: Swift.String?, title: Swift.String?
+    public let shortsList: [ShopLiveShortformSDK.ShopLiveShortform.ShortsModel]?
+    public let reference: Swift.String?
+    public let hasMore: Swift.Bool?
+    public init(from decoder: any Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+}
 @objc public protocol SLMP4CachingPlayerItemDelegate {
   @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, didFinishDownloadingFileAt filePath: Swift.String)
   @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, didDownloadBytesSoFar bytesDownloaded: Swift.Int, outOf bytesExpected: Swift.Int)
@@ -89,14 +101,14 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 16, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 16, viewCountVisibility: Swift.Bool = true, avAudioSessionCategoryOptions: AVFAudio.AVAudioSession.CategoryOptions? = nil) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 12, viewCountVisibility: Swift.Bool = true) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 12, viewCountVisibility: Swift.Bool = true, avAudioSessionCategoryOptions: AVFAudio.AVAudioSession.CategoryOptions? = nil) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
@@ -135,8 +147,15 @@ public class ShopLiveShortformCollectionData {
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
   @objc deinit
+}
+public struct ShopLiveShortformVisibleFullTypeData {
+  public var isBookMarkVisible: Swift.Bool
+  public var isShareButtonVisible: Swift.Bool
+  public var isCommentButtonVisible: Swift.Bool
+  public var isLikeButtonVisible: Swift.Bool
+  public init(isBookMarkVisible: Swift.Bool = true, isShareButtonVisible: Swift.Bool = true, isCommentButtonVisible: Swift.Bool = true, isLikeButtonVisible: Swift.Bool = true)
 }
 @_inheritsConvenienceInitializers @objc public class ShopLiveShareMetaData : ObjectiveC.NSObject {
   public var title: Swift.String?
@@ -170,6 +189,8 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData)
   public static func close()
   public static func getShopliveWindow() -> UIKit.UIWindow?
+  public static func setReferrer(referrer: Swift.String?)
+  public static func setVisibileFullTypeViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleFullTypeData)
   @objc deinit
 }
 extension Swift.Error {
@@ -179,6 +200,12 @@ extension Swift.Error {
   public var shortformError: ShopLiveShortformSDK.ShortformError? {
     get
   }
+}
+public class ShopLiveShortformIdsMoreData {
+  public var ids: [Swift.String]?
+  public var hasMore: Swift.Bool?
+  public init(ids: [Swift.String]? = nil, hasMore: Swift.Bool? = nil)
+  @objc deinit
 }
 public protocol SLShortsVideoPlayerDelegate : AnyObject {
   func handlePlayerItemStatus(_ status: AVFoundation.AVPlayerItem.Status)
@@ -194,6 +221,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     @objc override dynamic public init()
     @objc deinit
     public func setStopTime(time: CoreMedia.CMTime)
+    public func getCurrentTime() -> Swift.Double?
     public func play()
     public func pause()
     public func replay()
@@ -213,6 +241,12 @@ final public class Bindable<T> {
   }
   public init(_ value: T)
   final public func bind(listener: ((T) -> Swift.Void)?)
+  @objc deinit
+}
+public class ShopLiveShortformIdsData {
+  public var ids: [Swift.String]?
+  public var currentId: Swift.String?
+  public init(ids: [Swift.String]?, currentId: Swift.String? = nil, referrer: Swift.String? = nil)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
@@ -293,7 +327,7 @@ public class ShopLiveShortformRelatedData {
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
-  public init(reference: Swift.String? = nil, productId: Swift.Int? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil)
+  public init(reference: Swift.String? = nil, productId: Swift.Int? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
@@ -301,6 +335,15 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public var _s: Swift.Int?
     public var _e: Swift.String?
     public var _d: Swift.String?
+    public let shortsId: Swift.String?
+    public let srn: Swift.String?
+    public let startAt: Swift.Int?, endAt: Swift.Int?
+    public let reference: Swift.String?
+    public let shortsDetail: ShopLiveShortformSDK.ShortsDetail?
+    public let action: Swift.String?, payload: Swift.String?
+    public let shortsType: Swift.String?
+    public let traceId: Swift.String?
+    public let url: Swift.String?
     public init(from decoder: any Swift.Decoder) throws
     public static func == (lhs: ShopLiveShortformSDK.ShopLiveShortform.ShortsModel, rhs: ShopLiveShortformSDK.ShopLiveShortform.ShortsModel) -> Swift.Bool
     public var validate: Swift.Bool {
@@ -319,6 +362,10 @@ public enum SLMP4CachingPlayerItemConfiguration {
   public static var readDataLimit: Swift.Int
   public static var shouldVerifyDownloadedFileSize: Swift.Bool
   public static var minimumExpectedFileSize: Swift.Int
+}
+public protocol ShortsCollectionViewDataSourcRequestDelegate {
+  func onShortformListPagination(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))
+  func onShortformListPaginationError(error: any Swift.Error)
 }
 extension ShopLiveShortformSDK.ShopLiveShortform.CardViewType : Swift.Equatable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.CardViewType : Swift.Hashable {}
