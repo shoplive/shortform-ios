@@ -7,7 +7,7 @@ import PackageDescription
 
 let package = Package(
     name: "ShopliveShortformSDK",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v11)],
     products: [
         .library(
             name: "ShopliveShortformSDK",

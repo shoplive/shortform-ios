@@ -260,8 +260,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import AVFoundation;
-@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -283,42 +281,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class AVAsset;
-@class NSString;
-
-/// AVPlayerItem subclass that supports caching while playing.
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK22SLMP4CachingPlayerItem")
-@interface SLMP4CachingPlayerItem : AVPlayerItem
-/// Not implemented
-- (nonnull instancetype)initWithAsset:(AVAsset * _Nonnull)asset automaticallyLoadedAssetKeys:(NSArray<NSString *> * _Nullable)automaticallyLoadedAssetKeys OBJC_DESIGNATED_INITIALIZER;
-- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
-@end
-
-
-/// Convenient delegate methods for <code>SLMP4CachingPlayerItem</code> status updates.
-SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK30SLMP4CachingPlayerItemDelegate_")
-@protocol SLMP4CachingPlayerItemDelegate
-@optional
-/// Called when the media file is fully downloaded.
-- (void)playerItem:(SLMP4CachingPlayerItem * _Nonnull)playerItem didFinishDownloadingFileAt:(NSString * _Nonnull)filePath;
-/// Called every time a new portion of data is received.
-- (void)playerItem:(SLMP4CachingPlayerItem * _Nonnull)playerItem didDownloadBytesSoFar:(NSInteger)bytesDownloaded outOf:(NSInteger)bytesExpected;
-/// Called on downloading error.
-- (void)playerItem:(SLMP4CachingPlayerItem * _Nonnull)playerItem downloadingFailedWith:(NSError * _Nonnull)error;
-/// Called after initial prebuffering is finished, means we are ready to play.
-- (void)playerItemReadyToPlay:(SLMP4CachingPlayerItem * _Nonnull)playerItem;
-/// Called when the player is unable to play the data/url.
-- (void)playerItemDidFailToPlay:(SLMP4CachingPlayerItem * _Nonnull)playerItem withError:(NSError * _Nullable)error;
-/// Called when the data being downloaded did not arrive in time to continue playback.
-- (void)playerItemPlaybackStalled:(SLMP4CachingPlayerItem * _Nonnull)playerItem;
-@end
-
 
 SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
 @interface ShopLiveShareMetaData : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSString;
 
 SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDelegate_")
 @protocol ShopLiveShortformReceiveHandlerDelegate

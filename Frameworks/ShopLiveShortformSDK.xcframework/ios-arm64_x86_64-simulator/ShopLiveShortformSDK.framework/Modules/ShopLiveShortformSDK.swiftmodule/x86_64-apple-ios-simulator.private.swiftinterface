@@ -25,28 +25,6 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public func encode(to encoder: any Swift.Encoder) throws
   }
 }
-@objc public protocol SLMP4CachingPlayerItemDelegate {
-  @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, didFinishDownloadingFileAt filePath: Swift.String)
-  @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, didDownloadBytesSoFar bytesDownloaded: Swift.Int, outOf bytesExpected: Swift.Int)
-  @objc optional func playerItem(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, downloadingFailedWith error: any Swift.Error)
-  @objc optional func playerItemReadyToPlay(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem)
-  @objc optional func playerItemDidFailToPlay(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem, withError error: (any Swift.Error)?)
-  @objc optional func playerItemPlaybackStalled(_ playerItem: ShopLiveShortformSDK.SLMP4CachingPlayerItem)
-}
-@objc @_inheritsConvenienceInitializers final public class SLMP4CachingPlayerItem : AVFoundation.AVPlayerItem {
-  final public var passOnObject: Any?
-  weak final public var delegate: (any ShopLiveShortformSDK.SLMP4CachingPlayerItemDelegate)?
-  convenience public init(url: Foundation.URL, avUrlAssetOptions: [Swift.String : Any]? = nil)
-  convenience public init(url: Foundation.URL, customFileExtension: Swift.String, avUrlAssetOptions: [Swift.String : Any]? = nil)
-  public init(url: Foundation.URL, saveFilePath: Swift.String, customFileExtension: Swift.String?, avUrlAssetOptions: [Swift.String : Any]? = nil)
-  public init(nonCachingURL url: Foundation.URL, avUrlAssetOptions: [Swift.String : Any]? = nil)
-  convenience public init(data: Foundation.Data, customFileExtension: Swift.String) throws
-  public init(filePathURL: Foundation.URL, fileExtension: Swift.String? = nil)
-  @objc override dynamic public init(asset: AVFoundation.AVAsset, automaticallyLoadedAssetKeys: [Swift.String]?)
-  @objc deinit
-  final public func download()
-  @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-}
 @objc public protocol ShopLiveShortformReceiveHandlerDelegate {
   @objc optional func handleShare(shareUrl: Swift.String)
   @objc optional func handleShare(shareMetadata: ShopLiveShortformSDK.ShopLiveShareMetaData)
@@ -128,6 +106,7 @@ public struct ShortsDetail : Swift.Codable {
 @_hasMissingDesignatedInitializers public class ShortFormConfigurationInfosManager {
   public static let shared: ShopLiveShortformSDK.ShortFormConfigurationInfosManager
   public func getBaseUrl() -> Swift.String
+  public func setConfigurationURLToEmpty()
   @objc deinit
 }
 public struct BrandModel : Swift.Codable {
@@ -184,6 +163,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
 @_hasMissingDesignatedInitializers public class ShopLiveShortform {
   public static var sdkVersion: Swift.String
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
+  public static func play(shortformIdsData: ShopLiveShortformSDK.ShopLiveShortformIdsData, delegate: any ShopLiveShortformSDK.ShortsCollectionViewDataSourcRequestDelegate)
   @available(iOS, deprecated: 1.4.6, message: "this method will be removed on 1.4.7")
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
   public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData)
@@ -302,6 +282,7 @@ public class ListViewBaseBuilder {
   final public func getScrollContentOffset() -> CoreFoundation.CGPoint
   final public func setPlayableType(type: ShopLiveShortformSDK.ShopLiveShortform.PlayableType)
   final public func reloadItems()
+  final public func setCellBackgroundColor(color: UIKit.UIColor)
   final public func submit()
   final public func setVisibleViewCount(isVisible: Swift.Bool)
   final public func setVisibleBrand(isVisible: Swift.Bool)
@@ -344,6 +325,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public let shortsType: Swift.String?
     public let traceId: Swift.String?
     public let url: Swift.String?
+    public let reasonKey: Swift.String?
     public init(from decoder: any Swift.Decoder) throws
     public static func == (lhs: ShopLiveShortformSDK.ShopLiveShortform.ShortsModel, rhs: ShopLiveShortformSDK.ShopLiveShortform.ShortsModel) -> Swift.Bool
     public var validate: Swift.Bool {
@@ -351,17 +333,6 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     }
     public func encode(to encoder: any Swift.Encoder) throws
   }
-}
-extension ShopLiveShortformSDK.ShopLiveShortform.ShortsModel {
-  public var overlayUrl: Foundation.URL? {
-    get
-  }
-}
-public enum SLMP4CachingPlayerItemConfiguration {
-  public static var downloadBufferLimit: Swift.Int
-  public static var readDataLimit: Swift.Int
-  public static var shouldVerifyDownloadedFileSize: Swift.Bool
-  public static var minimumExpectedFileSize: Swift.Int
 }
 public protocol ShortsCollectionViewDataSourcRequestDelegate {
   func onShortformListPagination(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))
