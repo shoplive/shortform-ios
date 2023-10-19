@@ -21064,7 +21064,7 @@
       "kind": "StringLiteral",
       "offset": 238,
       "length": 7,
-      "value": "\"1.4.9\""
+      "value": "\"1.5.0\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-shortform-ios\/matrix-shortform-ios\/sources\/component\/interface\/ShopLiveShortform.swift",

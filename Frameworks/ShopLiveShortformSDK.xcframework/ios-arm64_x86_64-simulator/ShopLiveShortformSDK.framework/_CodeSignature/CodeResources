@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		zfh+IaR2TVsTosZp0YFvoKfImjk=
+		2h6g0HDMrC53F5ipAS9JTf8IENg=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		h7oyA3sdjwiM98Y7z4zEu9ADl6U=
+		leLOYIHWa+cRVmypA77iPCTyUzU=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		zfh+IaR2TVsTosZp0YFvoKfImjk=
+		2h6g0HDMrC53F5ipAS9JTf8IENg=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T1kWmYrNDEJYtcazBifYN1ojGY8=
+		xLRfodqrI61W+lLoY6zkFZ5Z5GA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M9oL/tUr73TLGcFDNf1jDbsg2V4WqgsSPH9S2K9+LSo=
+			AtCku1RdZIvFlxVKiLDlQrc2UX8aiDpuXCURRAi/Ol0=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T/buJyEj7Q4I6nEL2YmQpHUFFOLwWr57MzNNr2VnP/w=
+			GiqjT5Uj5vLZf5QZA/VKyJ3ST8TsdGp6pgO7tLuDPJ8=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M9oL/tUr73TLGcFDNf1jDbsg2V4WqgsSPH9S2K9+LSo=
+			AtCku1RdZIvFlxVKiLDlQrc2UX8aiDpuXCURRAi/Ol0=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pcfepO4Qm+cCGere/YO4SPIEqYWWtBQBjp5gx3ziKKc=
+			3Y3ZX/m+/jiGNNCl1QHKVf1U+ihVucaimNoUKTwh+D0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
