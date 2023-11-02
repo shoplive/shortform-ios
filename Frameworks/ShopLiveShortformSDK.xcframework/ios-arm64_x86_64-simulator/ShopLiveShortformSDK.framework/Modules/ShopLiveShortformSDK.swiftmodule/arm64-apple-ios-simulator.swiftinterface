@@ -283,6 +283,7 @@ public class ListViewBaseBuilder {
   final public func setPlayableType(type: ShopLiveShortformSDK.ShopLiveShortform.PlayableType)
   final public func reloadItems()
   final public func setCellBackgroundColor(color: UIKit.UIColor)
+  final public func notifyViewRotated()
   final public func submit()
   final public func setVisibleViewCount(isVisible: Swift.Bool)
   final public func setVisibleBrand(isVisible: Swift.Bool)
