@@ -243,8 +243,8 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
 }
 public struct Product : Swift.Codable {
   public let brand: Swift.String?
-  public let productId: Swift.Int?
-  public let customerProductId: Swift.Int?
+  public let productId: Swift.String?
+  public let customerProductId: Swift.String?
   public let name: Swift.String?
   public let description: Swift.String?
   public let url: Swift.String?
@@ -301,7 +301,7 @@ extension ShopLiveShortformSDK.ListViewBaseBuilder {
 }
 public class ShopLiveShortformRelatedData {
   public var reference: Swift.String?
-  public var productId: Swift.Int?
+  public var productId: Swift.String?
   public var name: Swift.String?
   public var sku: Swift.String?
   public var url: Swift.String?
@@ -309,7 +309,7 @@ public class ShopLiveShortformRelatedData {
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
-  public init(reference: Swift.String? = nil, productId: Swift.Int? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
+  public init(reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
