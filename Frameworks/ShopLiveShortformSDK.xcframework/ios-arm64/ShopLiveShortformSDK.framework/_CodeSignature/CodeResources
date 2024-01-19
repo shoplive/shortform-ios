@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		eORgI43JPMDT8CnE3PRiCGOGO5c=
+		Z5Ls6CBScEWu+4+M2NM0ZnF0re0=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		CLE1yUqzCnwiCWPCxFeYQ1+eVto=
+		l/eH5i4lrI1VJa2hgovwKYMzy+k=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CLE1yUqzCnwiCWPCxFeYQ1+eVto=
+		l/eH5i4lrI1VJa2hgovwKYMzy+k=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		63H4wfvofvNQnIIaY9vDTlYgEHE=
+		Yyn7rRCpvg8KjDhJq/ig5/XKwoI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ln69hekXty7ZTsQH+s7lf24Vp1dRU1vKSrQ42DkZ/Z4=
+			Jxjd0dQV+Ikvfd8Iymp3t6RG7/Qo3Jlx9RD9voNt7cc=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GLmNTxdW5/Q6SfNTm+8wNyFrbRBebNE00o5sM06peDo=
+			ELMchUxlIFktSQuHBac66uLK16UnKK5zkSsdO1mjB+w=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GLmNTxdW5/Q6SfNTm+8wNyFrbRBebNE00o5sM06peDo=
+			ELMchUxlIFktSQuHBac66uLK16UnKK5zkSsdO1mjB+w=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sKDh7NIFh33IFdHQgRbGuo7IRXRO99G4Z1IaD2Zceb4=
+			PuZf3NAmmGlA9fw6Q2x0qyXphTik2xf7A/WVAGuJNbc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
