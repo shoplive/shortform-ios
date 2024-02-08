@@ -100,8 +100,8 @@ public struct ShortsDetail : Swift.Codable {
   public let productBanner: ShopLiveShortformSDK.ProductBanner?
   public let products: [ShopLiveShortformSDK.Product]?
   public let brand: ShopLiveShortformSDK.BrandModel?
-  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class ShortFormConfigurationInfosManager {
   public static let shared: ShopLiveShortformSDK.ShortFormConfigurationInfosManager
@@ -110,13 +110,8 @@ public struct ShortsDetail : Swift.Codable {
   @objc deinit
 }
 public struct BrandModel : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-public enum ShortformError : Swift.Error {
-  case statusCode(Swift.Int)
-  case invalidConfig
-  case other(any Swift.Error)
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class ShopLiveShortformCollectionData {
   public var reference: Swift.String?
@@ -149,8 +144,8 @@ public struct ProductBanner : Swift.Codable {
   public let title: Swift.String?
   public let imageUrl: Swift.String?
   public let scheme: Swift.String?, traceId: Swift.String?, type: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   @_hasMissingDesignatedInitializers final public class BridgeInterface {
@@ -172,14 +167,6 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func setReferrer(referrer: Swift.String?)
   public static func setVisibileFullTypeViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleFullTypeData)
   @objc deinit
-}
-extension Swift.Error {
-  public var isShortformError: Swift.Bool {
-    get
-  }
-  public var shortformError: ShopLiveShortformSDK.ShortformError? {
-    get
-  }
 }
 public class ShopLiveShortformIdsMoreData {
   public var ids: [Swift.String]?
@@ -212,16 +199,6 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public func detach()
     @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   }
-}
-final public class Bindable<T> {
-  final public var listener: ((T) -> Swift.Void)?
-  final public var value: T {
-    get
-    set
-  }
-  public init(_ value: T)
-  final public func bind(listener: ((T) -> Swift.Void)?)
-  @objc deinit
 }
 public class ShopLiveShortformIdsData {
   public var ids: [Swift.String]?
