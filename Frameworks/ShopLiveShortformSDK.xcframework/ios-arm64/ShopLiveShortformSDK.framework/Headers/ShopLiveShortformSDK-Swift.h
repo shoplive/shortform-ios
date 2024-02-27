@@ -282,6 +282,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
 @interface ShopLiveShareMetaData : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -299,6 +300,16 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDeleg
 - (void)onDidDisAppear;
 - (void)onDidAppear;
 @end
+
+@class NSBundle;
+
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK29ShopLiveShortformSDKResources")
+@interface ShopLiveShortformSDKResources : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSBundle * _Nonnull bundle;)
++ (NSBundle * _Nonnull)bundle SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 
 
