@@ -20672,441 +20672,441 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11709,
+      "offset": 11696,
       "length": 19,
       "value": "\"shopliveSessionId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11867,
+      "offset": 11854,
       "length": 4,
       "value": "\"ui\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11995,
+      "offset": 11982,
       "length": 4,
       "value": "\"ui\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12081,
+      "offset": 12068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12763,
+      "offset": 12737,
       "length": 9,
       "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12963,
+      "offset": 12937,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 14861,
+      "offset": 14835,
       "length": 9,
       "value": "\"onError\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 14897,
+      "offset": 14871,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15042,
+      "offset": 15016,
       "length": 11,
       "value": "\"enableTap\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15080,
+      "offset": 15054,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15278,
+      "offset": 15252,
       "length": 14,
       "value": "\"previewShown\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15319,
+      "offset": 15293,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15640,
+      "offset": 15614,
       "length": 12,
       "value": "\"muteShorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 15679,
+      "offset": 15653,
       "length": 6,
       "value": "\"mute\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 15863,
+      "offset": 15837,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 15893,
+      "offset": 15867,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 16239,
+      "offset": 16213,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 16262,
+      "offset": 16236,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16359,
+      "offset": 16333,
       "length": 12,
       "value": "\"foreground\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 16629,
+      "offset": 16603,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 16652,
+      "offset": 16626,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16749,
+      "offset": 16723,
       "length": 12,
       "value": "\"background\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16903,
+      "offset": 16877,
       "length": 14,
       "value": "\"previewClose\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 16944,
+      "offset": 16918,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 17987,
+      "offset": 17961,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 18061,
+      "offset": 18035,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 18076,
+      "offset": 18050,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 18164,
+      "offset": 18138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18645,
+      "offset": 18619,
       "length": 13,
       "value": "\"handleShare\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18834,
+      "offset": 18808,
       "length": 22,
       "value": "\"requestShortsPreview\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18870,
+      "offset": 18844,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18882,
+      "offset": 18856,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19195,
+      "offset": 19169,
       "length": 19,
       "value": "\"moveToProductPage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19299,
+      "offset": 19273,
       "length": 10,
       "value": "\"shortsId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19322,
+      "offset": 19296,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19335,
+      "offset": 19309,
       "length": 14,
       "value": "\"productModel\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19561,
+      "offset": 19535,
       "length": 25,
       "value": "\"moveToProductBannerPage\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19673,
+      "offset": 19647,
       "length": 8,
       "value": "\"scheme\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19692,
+      "offset": 19666,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19705,
+      "offset": 19679,
       "length": 10,
       "value": "\"shortsId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19728,
+      "offset": 19702,
       "length": 14,
       "value": "\"shortsDetail\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 19927,
+      "offset": 19901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 20150,
+      "offset": 20124,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 20201,
+      "offset": 20175,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 20466,
+      "offset": 20440,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 21051,
+      "offset": 21025,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 21404,
+      "offset": 21378,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 21501,
+      "offset": 21475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 21551,
+      "offset": 21525,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 21555,
+      "offset": 21529,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 21591,
+      "offset": 21565,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 22054,
+      "offset": 22028,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 22161,
+      "offset": 22135,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23425,
+      "offset": 23399,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23616,
+      "offset": 23590,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23863,
+      "offset": 23837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 23961,
+      "offset": 23935,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24047,
+      "offset": 24021,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24077,
+      "offset": 24051,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 24402,
+      "offset": 24376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 24500,
+      "offset": 24474,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24586,
+      "offset": 24560,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 24616,
+      "offset": 24590,
       "length": 1,
       "value": "1"
     },
@@ -21365,476 +21365,469 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 8791,
+      "offset": 8761,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 8811,
+      "offset": 8781,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 8838,
+      "offset": 8808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9523,
+      "offset": 9493,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9726,
+      "offset": 9696,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9746,
+      "offset": 9716,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9773,
+      "offset": 9743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 10892,
+      "offset": 10862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11041,
+      "offset": 11011,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11155,
+      "offset": 11125,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11270,
+      "offset": 11240,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "Dictionary",
-      "offset": 14359,
+      "offset": 14329,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 14459,
+      "offset": 14429,
       "length": 9,
       "value": "\"userJWT\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 14605,
+      "offset": 14575,
       "length": 10,
       "value": "\"guestUid\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 16339,
+      "offset": 16309,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 16446,
+      "offset": 16416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 16705,
+      "offset": 16675,
       "length": 7,
       "value": "\"pause\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 17092,
+      "offset": 17062,
       "length": 10,
       "value": "\"seekTime\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 17209,
+      "offset": 17179,
       "length": 7,
       "value": "1000000"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 17777,
+      "offset": 17747,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 17904,
+      "offset": 17874,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18216,
+      "offset": 18186,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18238,
+      "offset": 18208,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18254,
+      "offset": 18224,
       "length": 10,
       "value": "\"videoUrl\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18289,
+      "offset": 18259,
       "length": 7,
       "value": "\"muted\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "Dictionary",
-      "offset": 18537,
+      "offset": 18507,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18607,
+      "offset": 18577,
       "length": 5,
       "value": "\"top\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 18614,
+      "offset": 18584,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18617,
+      "offset": 18587,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 18626,
+      "offset": 18596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18629,
+      "offset": 18599,
       "length": 8,
       "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 18639,
+      "offset": 18609,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18642,
+      "offset": 18612,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 18650,
+      "offset": 18620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18719,
+      "offset": 18689,
       "length": 5,
       "value": "\"top\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18767,
+      "offset": 18737,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18819,
+      "offset": 18789,
       "length": 8,
       "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 18873,
+      "offset": 18843,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 19141,
+      "offset": 19111,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 19523,
+      "offset": 19493,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 19555,
+      "offset": 19525,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 19599,
+      "offset": 19569,
       "length": 13,
       "value": "\"previousSrn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 20254,
+      "offset": 20224,
       "length": 4,
       "value": "\"[]\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 20321,
+      "offset": 20291,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 20353,
+      "offset": 20323,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 20397,
+      "offset": 20367,
       "length": 12,
       "value": "\"shortsList\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 20440,
+      "offset": 20410,
       "length": 13,
       "value": "\"previousSrn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 20919,
+      "offset": 20889,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 20977,
+      "offset": 20947,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21327,
+      "offset": 21276,
       "length": 19,
-      "value": "\"shopLiveSessionId\""
+      "value": "\"shopliveSessionId\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21380,
-      "length": 11,
-      "value": "\"sessionId\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
-      "kind": "StringLiteral",
-      "offset": 21654,
+      "offset": 21566,
       "length": 10,
       "value": "\"videoUrl\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21686,
+      "offset": 21598,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21702,
+      "offset": 21614,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 21724,
+      "offset": 21636,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 22076,
+      "offset": 21988,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 22108,
+      "offset": 22020,
       "length": 10,
       "value": "\"videoUrl\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 22143,
+      "offset": 22055,
       "length": 8,
       "value": "\"paused\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 22649,
+      "offset": 22561,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 22668,
+      "offset": 22580,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 22736,
+      "offset": 22648,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 22768,
+      "offset": 22680,
       "length": 10,
       "value": "\"videoUrl\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 22810,
+      "offset": 22722,
       "length": 10,
       "value": "\"duration\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 23324,
+      "offset": 23236,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 23339,
+      "offset": 23251,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 23398,
+      "offset": 23310,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 23430,
+      "offset": 23342,
       "length": 10,
       "value": "\"videoUrl\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/RenewalView\/ShortsCell2\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 23472,
+      "offset": 23384,
       "length": 13,
       "value": "\"currentTime\""
     },
