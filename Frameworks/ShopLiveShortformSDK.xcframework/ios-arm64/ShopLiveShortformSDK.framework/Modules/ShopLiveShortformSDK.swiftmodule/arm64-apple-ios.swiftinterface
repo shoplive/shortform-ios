@@ -73,7 +73,9 @@ public class ShopLiveShortformCollectionData {
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
+  public var skus: [Swift.String]?
+  public var shortsCollectionId: Swift.String?
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?)
   @objc deinit
 }
 public class ShopLiveShortformIdsData {
@@ -89,19 +91,36 @@ public class ShopLiveShortformIdsMoreData {
   @objc deinit
 }
 public class ShopLiveShortformRelatedData {
+  public var shortsId: Swift.String?
   public var reference: Swift.String?
   public var productId: Swift.String?
   public var name: Swift.String?
-  public var sku: Swift.String?
+  public var skus: [Swift.String]?
   public var url: Swift.String?
   public var tags: [Swift.String]?
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
-  public init(reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, sku: Swift.String? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
+  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
   @objc deinit
 }
 public struct BrandModel : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers @objc public class BrandData : ObjectiveC.NSObject {
+  public var id: Swift.Int?
+  public var identifier: Swift.String?
+  public var imageUrl: Swift.String?
+  public var name: Swift.String?
+  public var traceId: Swift.String?
+  @objc deinit
+}
+public struct Creator : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct LinkButton : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -123,12 +142,48 @@ public struct Product : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
+@_hasMissingDesignatedInitializers @objc public class ProductData : ObjectiveC.NSObject {
+  public var brand: Swift.String?
+  public var productId: Swift.String?
+  public var customerProductId: Swift.String?
+  public var name: Swift.String?
+  public var descriptions: Swift.String?
+  public var url: Swift.String?
+  public var sku: Swift.String?
+  public var imageUrl: Swift.String?
+  public var currency: Swift.String?
+  public var showPrice: Swift.Bool?
+  public var originalPrice: Swift.Double?
+  public var discountPrice: Swift.Double?
+  public var discountRate: Swift.Double?
+  public var stockStatus: Swift.String?
+  @objc deinit
+}
 public struct ProductBanner : Swift.Codable {
   public let title: Swift.String?
   public let imageUrl: Swift.String?
   public let scheme: Swift.String?, traceId: Swift.String?, type: Swift.String?
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers @objc public class ProductBannerData : ObjectiveC.NSObject {
+  public var title: Swift.String?
+  public var imageUrl: Swift.String?
+  public var scheme: Swift.String?, traceId: Swift.String?, type: Swift.String?
+  @objc deinit
+}
+extension ShopLiveShortformSDK.ShopLiveShortform {
+  public struct ReferenceByType : ShopliveSDKCommon.BaseResponsable, ShopliveSDKCommon.RawDataRepresantable {
+    public var _s: Swift.Int?
+    public var _e: Swift.String?
+    public let generalShortformReference: Swift.String?
+    public let promotionShortformReference: Swift.String?
+    public let externalShortformReference: Swift.String?
+    public var rawData: Foundation.Data?
+    public init(from decoder: any Swift.Decoder) throws
+    public func getRawDataDict() -> [Swift.String : Any]?
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   public struct ShortsCollectionModel : ShopliveSDKCommon.BaseResponsable, ShopliveSDKCommon.RawDataRepresantable {
@@ -137,6 +192,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public let srn: Swift.String?, title: Swift.String?
     public let shortsList: [ShopLiveShortformSDK.ShopLiveShortform.ShortsModel]?
     public let reference: Swift.String?
+    public let referenceByType: ShopLiveShortformSDK.ShopLiveShortform.ReferenceByType?
     public let hasMore: Swift.Bool?
     public var rawData: Foundation.Data?
     public init(from decoder: any Swift.Decoder) throws
@@ -152,8 +208,20 @@ public struct ShortsDetail : Swift.Codable {
   public let productBanner: ShopLiveShortformSDK.ProductBanner?
   public let products: [ShopLiveShortformSDK.Product]?
   public let brand: ShopLiveShortformSDK.BrandModel?
+  public let creator: ShopLiveShortformSDK.Creator?
+  public let linkButton: ShopLiveShortformSDK.LinkButton?
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers @objc public class ShortsDetailData : ObjectiveC.NSObject {
+  public var title: Swift.String?
+  public var descriptions: Swift.String?
+  public var tags: [Swift.String]?
+  public var productCount: Swift.Int?
+  public var productBanner: ShopLiveShortformSDK.ProductBannerData?
+  public var products: [ShopLiveShortformSDK.ProductData]?
+  public var brand: ShopLiveShortformSDK.BrandData?
+  @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   public struct ShortsModel : ShopliveSDKCommon.BaseResponsable, ShopliveSDKCommon.RawDataRepresantable, Swift.Equatable {
@@ -185,6 +253,22 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public func getBaseUrl() -> Swift.String
   public func setConfigurationURLToEmpty()
   @objc deinit
+}
+@objc public protocol ShopLiveShortformReceiveHandlerDelegate {
+  @objc optional func handleShare(shareUrl: Swift.String)
+  @objc optional func handleShare(shareMetadata: ShopLiveShortformSDK.ShopLiveShareMetaData)
+  @objc optional func onError(error: any Swift.Error)
+  @objc optional func onEvent(command: Swift.String, payload: Swift.String?)
+  @objc optional func onDidDisAppear()
+  @objc optional func onDidAppear()
+  @objc optional func handleProductItem(shortsId: Swift.String, shortsSrn: Swift.String, product: ShopLiveShortformSDK.ProductData)
+  @objc optional func handleProductBanner(shortsId: Swift.String, shortsSrn: Swift.String, scheme: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetailData)
+}
+extension ShopLiveShortformSDK.ShopLiveShortform {
+  @_hasMissingDesignatedInitializers final public class Delegate {
+    public static func setDelegate(_ delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+    @objc deinit
+  }
 }
 public enum ShopLiveTagSearchOperator : Swift.String {
   case AND
@@ -225,9 +309,12 @@ extension ShopLiveShortformSDK.ListViewBaseBuilder {
   final public func disableShuffle()
   final public func setHashTags(tags: [Swift.String]?, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?)
   final public func setBrands(brands: [Swift.String]?)
+  final public func setSkus(skus: [Swift.String]?)
+  final public func setShortsCollectionId(shortsCollectionId: Swift.String?)
 }
 public protocol ShopLiveShortformListViewDelegate : ObjectiveC.NSObject {
   func onListViewError(error: any Swift.Error)
+  func onShortsSettingsInitialized()
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
   public enum CardViewType {
@@ -294,25 +381,6 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func setReferrer(referrer: Swift.String?)
   public static func setVisibileDetailViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleDetailData)
   @objc deinit
-}
-@objc public protocol ShopLiveShortformReceiveHandlerDelegate {
-  @objc optional func handleShare(shareUrl: Swift.String)
-  @objc optional func handleShare(shareMetadata: ShopLiveShortformSDK.ShopLiveShareMetaData)
-  @objc optional func onError(error: any Swift.Error)
-  @objc optional func onEvent(command: Swift.String, payload: Swift.String?)
-  @objc optional func onDidDisAppear()
-  @objc optional func onDidAppear()
-}
-public protocol ShopLiveShortformDetailHandlerDelegate : AnyObject {
-  func handleProductItem(shortsId: Swift.String, shortsSrn: Swift.String, product: ShopLiveShortformSDK.Product)
-  func handleProductBanner(shortsId: Swift.String, shortsSrn: Swift.String, scheme: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetail)
-}
-extension ShopLiveShortformSDK.ShopLiveShortform {
-  @_hasMissingDesignatedInitializers final public class ShortsReceiveInterface {
-    public static func setHandler(_ handler: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
-    public static func setNativeHandler(_ handler: (any ShopLiveShortformSDK.ShopLiveShortformDetailHandlerDelegate)?)
-    @objc deinit
-  }
 }
 public protocol ShortsCollectionViewDataSourcRequestDelegate : AnyObject {
   func onShortformListPagination(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))

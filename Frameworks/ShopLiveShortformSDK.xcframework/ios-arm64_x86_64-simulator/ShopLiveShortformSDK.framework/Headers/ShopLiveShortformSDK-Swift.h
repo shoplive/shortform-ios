@@ -282,6 +282,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK9BrandData")
+@interface BrandData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK17ProductBannerData")
+@interface ProductBannerData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK11ProductData")
+@interface ProductData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
 @interface ShopLiveShareMetaData : NSObject
@@ -289,6 +310,7 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
 @end
 
 @class NSString;
+@class ShortsDetailData;
 
 SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDelegate_")
 @protocol ShopLiveShortformReceiveHandlerDelegate
@@ -299,6 +321,8 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDeleg
 - (void)onEventWithCommand:(NSString * _Nonnull)command payload:(NSString * _Nullable)payload;
 - (void)onDidDisAppear;
 - (void)onDidAppear;
+- (void)handleProductItemWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn product:(ProductData * _Nonnull)product;
+- (void)handleProductBannerWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn scheme:(NSString * _Nonnull)scheme shortsDetail:(ShortsDetailData * _Nonnull)shortsDetail;
 @end
 
 @class NSBundle;
@@ -308,6 +332,13 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK29ShopLiveShortformSDKResources")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSBundle * _Nonnull bundle;)
 + (NSBundle * _Nonnull)bundle SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK16ShortsDetailData")
+@interface ShortsDetailData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -605,6 +636,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK9BrandData")
+@interface BrandData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK17ProductBannerData")
+@interface ProductBannerData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK11ProductData")
+@interface ProductData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
 @interface ShopLiveShareMetaData : NSObject
@@ -612,6 +664,7 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
 @end
 
 @class NSString;
+@class ShortsDetailData;
 
 SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDelegate_")
 @protocol ShopLiveShortformReceiveHandlerDelegate
@@ -622,6 +675,8 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDeleg
 - (void)onEventWithCommand:(NSString * _Nonnull)command payload:(NSString * _Nullable)payload;
 - (void)onDidDisAppear;
 - (void)onDidAppear;
+- (void)handleProductItemWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn product:(ProductData * _Nonnull)product;
+- (void)handleProductBannerWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn scheme:(NSString * _Nonnull)scheme shortsDetail:(ShortsDetailData * _Nonnull)shortsDetail;
 @end
 
 @class NSBundle;
@@ -631,6 +686,13 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK29ShopLiveShortformSDKResources")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSBundle * _Nonnull bundle;)
 + (NSBundle * _Nonnull)bundle SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC20ShopLiveShortformSDK16ShortsDetailData")
+@interface ShortsDetailData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
