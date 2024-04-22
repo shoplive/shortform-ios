@@ -1786,116 +1786,6 @@
           },
           {
             "kind": "Var",
-            "name": "shortsSrn",
-            "printedName": "shortsSrn",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvp",
-            "mangledName": "$s20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvp",
-            "moduleName": "ShopLiveShortformSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvg",
-                "mangledName": "$s20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvg",
-                "moduleName": "ShopLiveShortformSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvs",
-                "mangledName": "$s20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvs",
-                "moduleName": "ShopLiveShortformSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvM",
-                "mangledName": "$s20ShopLiveShortformSDK0abC14CollectionDataC9shortsSrnSSSgvM",
-                "moduleName": "ShopLiveShortformSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "tags",
             "printedName": "tags",
             "children": [
@@ -2629,28 +2519,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(reference:shortsId:shortsSrn:tags:tagSearchOperator:brands:shuffle:referrer:skus:shortsCollectionId:)",
+            "printedName": "init(reference:shortsId:tags:tagSearchOperator:brands:shuffle:referrer:skus:shortsCollectionId:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "ShopLiveShortformCollectionData",
                 "printedName": "ShopLiveShortformSDK.ShopLiveShortformCollectionData",
                 "usr": "s:20ShopLiveShortformSDK0abC14CollectionDataC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2812,8 +2687,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20ShopLiveShortformSDK0abC14CollectionDataC9reference8shortsId0H3Srn4tags17tagSearchOperator6brands7shuffle8referrer4skus0heI0ACSSSg_A2NSaySSGSgAA0ab3TagmN0OSgAPSbSgAnpNtcfc",
-            "mangledName": "$s20ShopLiveShortformSDK0abC14CollectionDataC9reference8shortsId0H3Srn4tags17tagSearchOperator6brands7shuffle8referrer4skus0heI0ACSSSg_A2NSaySSGSgAA0ab3TagmN0OSgAPSbSgAnpNtcfc",
+            "usr": "s:20ShopLiveShortformSDK0abC14CollectionDataC9reference8shortsId4tags17tagSearchOperator6brands7shuffle8referrer4skus0heI0ACSSSg_AMSaySSGSgAA0ab3TaglM0OSgAOSbSgAmoMtcfc",
+            "mangledName": "$s20ShopLiveShortformSDK0abC14CollectionDataC9reference8shortsId4tags17tagSearchOperator6brands7shuffle8referrer4skus0heI0ACSSSg_AMSaySSGSgAA0ab3TaglM0OSgAOSbSgAmoMtcfc",
             "moduleName": "ShopLiveShortformSDK",
             "declAttributes": [
               "AccessControl"
@@ -23575,147 +23450,147 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "Array",
-      "offset": 3581,
+      "offset": 3557,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "Array",
-      "offset": 6821,
+      "offset": 6797,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7849,
+      "offset": 7825,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7871,
+      "offset": 7847,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7895,
+      "offset": 7871,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7920,
+      "offset": 7896,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8055,
+      "offset": 8031,
       "length": 13,
       "value": "\"bottomRight\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8122,
+      "offset": 8098,
       "length": 12,
       "value": "\"bottomLeft\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8185,
+      "offset": 8161,
       "length": 9,
       "value": "\"topLeft\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8246,
+      "offset": 8222,
       "length": 10,
       "value": "\"topRight\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8301,
+      "offset": 8277,
       "length": 13,
       "value": "\"bottomRight\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "Array",
-      "offset": 8456,
+      "offset": 8432,
       "length": 51,
       "value": "[\"topLeft\", \"topRight\", \"bottomLeft\", \"bottomRight\"]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7849,
+      "offset": 7825,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7871,
+      "offset": 7847,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7895,
+      "offset": 7871,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 7920,
+      "offset": 7896,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9159,
+      "offset": 9135,
       "length": 5,
       "value": "\"mp4\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9211,
+      "offset": 9187,
       "length": 6,
       "value": "\"m3u8\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9266,
+      "offset": 9242,
       "length": 5,
       "value": "\"png\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9318,
+      "offset": 9294,
       "length": 5,
       "value": "\"gif\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9374,
+      "offset": 9350,
       "length": 9,
       "value": "\"unknown\""
     },

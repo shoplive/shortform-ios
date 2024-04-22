@@ -68,14 +68,13 @@ public enum ShopLiveShortformSDKStrings {
 public class ShopLiveShortformCollectionData {
   public var reference: Swift.String?
   public var shortsId: Swift.String?
-  public var shortsSrn: Swift.String?
   public var tags: [Swift.String]?
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
   public var skus: [Swift.String]?
   public var shortsCollectionId: Swift.String?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, shortsSrn: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?)
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?)
   @objc deinit
 }
 public class ShopLiveShortformIdsData {
