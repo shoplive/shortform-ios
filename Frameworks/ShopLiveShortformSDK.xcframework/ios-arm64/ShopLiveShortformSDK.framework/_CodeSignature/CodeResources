@@ -40,6 +40,10 @@
 		<data>
 		Hyja5Hr3iDljzAaRvAz1rl9gicA=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		sJqZK/PqXDDc6WIa8cuAUFwjQDg=
+		</data>
 		<key>Test.nib</key>
 		<data>
 		h+BKDS80+8YWvmX9q+OvXpn0PWc=
@@ -119,6 +123,13 @@
 			<key>hash2</key>
 			<data>
 			oprO2uaAMDmBP8ES3s9MC15m/5iLnFLIGhQVbU/sdSw=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x3fz+Uk8gGyZXHDATNXecHCuTk/OdHDqHK+wstcF6n8=
 			</data>
 		</dict>
 		<key>Test.nib</key>
