@@ -89,6 +89,20 @@ public class ShopLiveShortformIdsMoreData {
   public init(ids: [Swift.String]? = nil, hasMore: Swift.Bool? = nil)
   @objc deinit
 }
+final public class ShopLiveShortformPreviewData : ShopLiveShortformSDK.ShopLiveShortformRelatedData {
+  final public var isMuted: Swift.Bool?
+  final public var previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition?
+  final public var previewScale: CoreFoundation.CGFloat?
+  final public var previewEdgeInset: UIKit.UIEdgeInsets?
+  final public var previewFloatingOffset: UIKit.UIEdgeInsets?
+  final public var useCloseButton: Swift.Bool?
+  final public var useCustomAction: Swift.Bool
+  final public var enableSwipeOut: Swift.Bool?
+  final public var clickEventCallBack: (() -> ())?
+  final public var maxCount: Swift.Int?
+  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, isMuted: Swift.Bool? = nil, previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition? = nil, previewScale: CoreFoundation.CGFloat? = nil, previewEdgeInset: UIKit.UIEdgeInsets? = nil, previewFloatingOffset: UIKit.UIEdgeInsets? = nil, useCloseButton: Swift.Bool? = nil, enableSwipeOut: Swift.Bool? = nil, maxCount: Swift.Int? = nil, useCustomAction: Swift.Bool = false, clickEventCallBack: (() -> ())? = nil)
+  @objc deinit
+}
 public class ShopLiveShortformRelatedData {
   public var shortsId: Swift.String?
   public var reference: Swift.String?
@@ -247,8 +261,17 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public func encode(to encoder: any Swift.Encoder) throws
   }
 }
+extension ShopLiveShortformSDK.ShopLiveShortform {
+  @_hasMissingDesignatedInitializers final public class BridgeInterface {
+    public static func connect(_ webview: WebKit.WKWebView)
+    public static func present(viewController: UIKit.UIViewController?)
+    public static func disconnect()
+    @objc deinit
+  }
+}
 @_hasMissingDesignatedInitializers public class ShortFormConfigurationInfosManager {
   public static let shared: ShopLiveShortformSDK.ShortFormConfigurationInfosManager
+  public func getRequestCount() -> Swift.Int
   public func getBaseUrl() -> Swift.String
   public func setConfigurationURLToEmpty()
   @objc deinit
@@ -360,68 +383,38 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     @objc deinit
   }
 }
-extension ShopLiveShortformSDK.ShopLiveShortform {
-  @_hasMissingDesignatedInitializers final public class BridgeInterface {
-    public static func connect(_ webview: WebKit.WKWebView)
-    public static func present(viewController: UIKit.UIViewController?)
-    public static func disconnect()
-    @objc deinit
-  }
-}
 @_hasMissingDesignatedInitializers public class ShopLiveShortform {
   public static var sdkVersion: Swift.String
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
   public static func play(shortformIdsData: ShopLiveShortformSDK.ShopLiveShortformIdsData, delegate: any ShopLiveShortformSDK.ShortsCollectionViewDataSourcRequestDelegate)
   @available(iOS, deprecated: 1.4.6, message: "this method will be removed on 1.4.7")
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
-  public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData)
+  public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformPreviewData)
   public static func close()
   public static func getShopliveWindow() -> UIKit.UIWindow?
   public static func setReferrer(referrer: Swift.String?)
   public static func setVisibileDetailViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleDetailData)
   @objc deinit
 }
+extension ShopLiveShortformSDK.ShopLiveShortform {
+  @objc public enum PreviewPosition : Swift.Int {
+    case topLeft
+    case topRight
+    case bottomLeft
+    case bottomRight
+    case `default`
+    public var name: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
 public protocol ShortsCollectionViewDataSourcRequestDelegate : AnyObject {
   func onShortformListPagination(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))
-  func onShortformListPaginationError(error: any Swift.Error)
-}
-extension ShopLiveShortformSDK.ShopLiveShortform {
-  public class ShortsVideo {
-    public var videoUrl: Foundation.URL
-    public var player: AVFoundation.AVPlayer?
-    public var seekNotificationEnabled: Swift.Bool
-    public init(videoUrl: Foundation.URL, maxBufferDuration: Swift.Double = 2)
-    @objc deinit
-    public func getVideoDuration() -> Swift.Double
-    public func seekTo(time: CoreMedia.CMTime)
-    public func getVideoSize() -> CoreFoundation.CGSize?
-  }
-}
-public protocol SLShortsVideoPlayerDelegate : AnyObject {
-  func handlePlayerItemStatus(_ status: AVFoundation.AVPlayerItem.Status)
-  func handleTimeControlStatus(_ status: AVFoundation.AVPlayer.TimeControlStatus)
-  func handleDidPlayToEndTime(video: ShopLiveShortformSDK.ShopLiveShortform.ShortsVideo?)
-  func onVideoTimeUpdated(time: Swift.Float64)
-}
-extension ShopLiveShortformSDK.ShopLiveShortform {
-  @objc @_inheritsConvenienceInitializers open class VideoPlayer : ObjectiveC.NSObject {
-    weak public var playerDelegate: (any ShopLiveShortformSDK.SLShortsVideoPlayerDelegate)?
-    public var timeUpdateInterval: Swift.Double
-    public func setShortsVideo(video: ShopLiveShortformSDK.ShopLiveShortform.ShortsVideo)
-    @objc override dynamic public init()
-    @objc deinit
-    public func setStopTime(time: CoreMedia.CMTime)
-    public func getCurrentTime() -> Swift.Double?
-    public func play()
-    public func pause()
-    public func replay()
-    public func stop()
-    public func seekTo(time: CoreMedia.CMTime)
-    public func setVideoGravity(_ videoGravity: AVFoundation.AVLayerVideoGravity)
-    public func attach(parent: UIKit.UIView)
-    public func detach()
-    @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
-  }
 }
 public struct ShopLiveShortformVisibleDetailData {
   public var isBookMarkVisible: Swift.Bool
@@ -439,3 +432,6 @@ extension ShopLiveShortformSDK.ShopLiveShortform.ListViewType : Swift.Equatable 
 extension ShopLiveShortformSDK.ShopLiveShortform.ListViewType : Swift.Hashable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.PlayableType : Swift.Equatable {}
 extension ShopLiveShortformSDK.ShopLiveShortform.PlayableType : Swift.Hashable {}
+extension ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition : Swift.Equatable {}
+extension ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition : Swift.Hashable {}
+extension ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition : Swift.RawRepresentable {}
