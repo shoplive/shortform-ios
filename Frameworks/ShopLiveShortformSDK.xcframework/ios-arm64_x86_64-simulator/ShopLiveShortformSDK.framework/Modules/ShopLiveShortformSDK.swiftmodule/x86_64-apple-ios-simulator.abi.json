@@ -3797,6 +3797,126 @@
           },
           {
             "kind": "Var",
+            "name": "previewRadius",
+            "printedName": "previewRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius14CoreFoundation7CGFloatVSgvp",
+            "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius12CoreGraphics7CGFloatVSgvp",
+            "moduleName": "ShopLiveShortformSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius14CoreFoundation7CGFloatVSgvg",
+                "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius12CoreGraphics7CGFloatVSgvg",
+                "moduleName": "ShopLiveShortformSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius14CoreFoundation7CGFloatVSgvs",
+                "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius12CoreGraphics7CGFloatVSgvs",
+                "moduleName": "ShopLiveShortformSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius14CoreFoundation7CGFloatVSgvM",
+                "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC13previewRadius12CoreGraphics7CGFloatVSgvM",
+                "moduleName": "ShopLiveShortformSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "previewEdgeInset",
             "printedName": "previewEdgeInset",
             "children": [
@@ -4647,7 +4767,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(shortsId:reference:productId:name:skus:url:tags:tagSearchOperator:brands:shuffle:referrer:isMuted:previewPosition:previewScale:previewEdgeInset:previewFloatingOffset:useCloseButton:enableSwipeOut:maxCount:useCustomAction:clickEventCallBack:)",
+            "printedName": "init(shortsId:reference:productId:name:skus:url:tags:tagSearchOperator:brands:shuffle:referrer:isMuted:previewPosition:previewScale:previewRadius:previewEdgeInset:previewFloatingOffset:useCloseButton:enableSwipeOut:maxCount:useCustomAction:clickEventCallBack:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4892,6 +5012,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "UIKit.UIEdgeInsets?",
                 "children": [
                   {
@@ -4999,8 +5134,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC8shortsId9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer7isMuted15previewPosition0W5Scale0W9EdgeInset0W14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_A3YSaySSGSgAYA_AA0ab3TagpQ0OSgA_SbSgAYA3_AA0abC0C0eX0OSg14CoreFoundation7CGFloatVSgSo12UIEdgeInsetsVSgA15_A3_A3_SiSgSbyycSgtcfc",
-            "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC8shortsId9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer7isMuted15previewPosition0W5Scale0W9EdgeInset0W14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_A3YSaySSGSgAYA_AA0ab3TagpQ0OSgA_SbSgAYA3_AA0abC0C0eX0OSg12CoreGraphics7CGFloatVSgSo12UIEdgeInsetsVSgA15_A3_A3_SiSgSbyycSgtcfc",
+            "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC8shortsId9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer7isMuted15previewPosition0W5Scale0W6Radius0W9EdgeInset0W14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_A3ZSaySSGSgAZA0_AA0ab3TagpQ0OSgA0_SbSgAZA4_AA0abC0C0eX0OSg14CoreFoundation7CGFloatVSgA13_So12UIEdgeInsetsVSgA16_A4_A4_SiSgSbyycSgtcfc",
+            "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC8shortsId9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer7isMuted15previewPosition0W5Scale0W6Radius0W9EdgeInset0W14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_A3ZSaySSGSgAZA0_AA0ab3TagpQ0OSgA0_SbSgAZA4_AA0abC0C0eX0OSg12CoreGraphics7CGFloatVSgA13_So12UIEdgeInsetsVSgA16_A4_A4_SiSgSbyycSgtcfc",
             "moduleName": "ShopLiveShortformSDK",
             "declAttributes": [
               "AccessControl"
@@ -22202,7 +22337,7 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/DTO\/ShortformPreviewOptionDTO.swift",
       "kind": "BooleanLiteral",
-      "offset": 886,
+      "offset": 950,
       "length": 5,
       "value": "false"
     },
@@ -22258,14 +22393,14 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/api\/RequestModels\/ShopLiveShortformPreviewData.swift",
       "kind": "BooleanLiteral",
-      "offset": 601,
+      "offset": 641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/api\/RequestModels\/ShopLiveShortformPreviewData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1439,
+      "offset": 1527,
       "length": 5,
       "value": "false"
     },
@@ -24617,98 +24752,98 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 20651,
+      "offset": 20603,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 21412,
+      "offset": 21364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 21852,
+      "offset": 21804,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 21895,
+      "offset": 21847,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "BooleanLiteral",
-      "offset": 22098,
+      "offset": 22050,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 22672,
+      "offset": 22624,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 22830,
+      "offset": 22782,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 22904,
+      "offset": 22856,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 23908,
+      "offset": 23860,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 24066,
+      "offset": 24018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 24140,
+      "offset": 24092,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 25643,
+      "offset": 25595,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 27954,
+      "offset": 27906,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
       "kind": "IntegerLiteral",
-      "offset": 27959,
+      "offset": 27911,
       "length": 1,
       "value": "9"
     },
@@ -24736,14 +24871,14 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindowReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3578,
+      "offset": 3854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindowReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4136,
+      "offset": 4412,
       "length": 5,
       "value": "false"
     },

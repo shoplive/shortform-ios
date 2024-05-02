@@ -93,6 +93,7 @@ final public class ShopLiveShortformPreviewData : ShopLiveShortformSDK.ShopLiveS
   final public var isMuted: Swift.Bool?
   final public var previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition?
   final public var previewScale: CoreFoundation.CGFloat?
+  final public var previewRadius: CoreFoundation.CGFloat?
   final public var previewEdgeInset: UIKit.UIEdgeInsets?
   final public var previewFloatingOffset: UIKit.UIEdgeInsets?
   final public var useCloseButton: Swift.Bool?
@@ -100,7 +101,7 @@ final public class ShopLiveShortformPreviewData : ShopLiveShortformSDK.ShopLiveS
   final public var enableSwipeOut: Swift.Bool?
   final public var clickEventCallBack: (() -> ())?
   final public var maxCount: Swift.Int?
-  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, isMuted: Swift.Bool? = nil, previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition? = nil, previewScale: CoreFoundation.CGFloat? = nil, previewEdgeInset: UIKit.UIEdgeInsets? = nil, previewFloatingOffset: UIKit.UIEdgeInsets? = nil, useCloseButton: Swift.Bool? = nil, enableSwipeOut: Swift.Bool? = nil, maxCount: Swift.Int? = nil, useCustomAction: Swift.Bool = false, clickEventCallBack: (() -> ())? = nil)
+  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, isMuted: Swift.Bool? = nil, previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition? = nil, previewScale: CoreFoundation.CGFloat? = nil, previewRadius: CoreFoundation.CGFloat? = nil, previewEdgeInset: UIKit.UIEdgeInsets? = nil, previewFloatingOffset: UIKit.UIEdgeInsets? = nil, useCloseButton: Swift.Bool? = nil, enableSwipeOut: Swift.Bool? = nil, maxCount: Swift.Int? = nil, useCustomAction: Swift.Bool = false, clickEventCallBack: (() -> ())? = nil)
   @objc deinit
 }
 public class ShopLiveShortformRelatedData {
