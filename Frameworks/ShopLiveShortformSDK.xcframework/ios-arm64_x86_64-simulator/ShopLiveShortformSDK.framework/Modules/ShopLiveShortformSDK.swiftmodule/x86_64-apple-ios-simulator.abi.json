@@ -21636,34 +21636,6 @@
         "moduleName": "ShopLiveShortformSDK"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ShopLiveShortformSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ShopLiveShortformSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ShopLiveShortformSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "ShopLiveShortformSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "UIImage",
         "printedName": "UIImage",
@@ -21912,35 +21884,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -21973,6 +21916,28 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
           }
         ]
       }
@@ -39045,55 +39010,6 @@
       "offset": 756,
       "length": 9,
       "value": "\"#545454\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/Library\/Developer\/Xcode\/DerivedData\/ShopLive-fbmqjyoxqwivnxgbzludvhfjqrni\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShopLiveShortformSDK\/IntermediateBuildFilesPath\/ShopLiveShortformSDK.build\/Release-iphonesimulator\/ShopLiveShortformSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 16,
-      "value": "\"sl_closebutton\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/Library\/Developer\/Xcode\/DerivedData\/ShopLive-fbmqjyoxqwivnxgbzludvhfjqrni\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShopLiveShortformSDK\/IntermediateBuildFilesPath\/ShopLiveShortformSDK.build\/Release-iphonesimulator\/ShopLiveShortformSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 891,
-      "length": 16,
-      "value": "\"sl_ic_back_btn\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/Library\/Developer\/Xcode\/DerivedData\/ShopLive-fbmqjyoxqwivnxgbzludvhfjqrni\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShopLiveShortformSDK\/IntermediateBuildFilesPath\/ShopLiveShortformSDK.build\/Release-iphonesimulator\/ShopLiveShortformSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1050,
-      "length": 20,
-      "value": "\"sl_ic_media_filled\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/Library\/Developer\/Xcode\/DerivedData\/ShopLive-fbmqjyoxqwivnxgbzludvhfjqrni\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShopLiveShortformSDK\/IntermediateBuildFilesPath\/ShopLiveShortformSDK.build\/Release-iphonesimulator\/ShopLiveShortformSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 14,
-      "value": "\"sl_ic_person\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/Library\/Developer\/Xcode\/DerivedData\/ShopLive-fbmqjyoxqwivnxgbzludvhfjqrni\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShopLiveShortformSDK\/IntermediateBuildFilesPath\/ShopLiveShortformSDK.build\/Release-iphonesimulator\/ShopLiveShortformSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1361,
-      "length": 21,
-      "value": "\"sl_ic_shoplive_logo\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/Library\/Developer\/Xcode\/DerivedData\/ShopLive-fbmqjyoxqwivnxgbzludvhfjqrni\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShopLiveShortformSDK\/IntermediateBuildFilesPath\/ShopLiveShortformSDK.build\/Release-iphonesimulator\/ShopLiveShortformSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1536,
-      "length": 26,
-      "value": "\"sl_ic_shoplive_user-fill\""
-    },
-    {
-      "filePath": "\/Users\/sangminhan\/Library\/Developer\/Xcode\/DerivedData\/ShopLive-fbmqjyoxqwivnxgbzludvhfjqrni\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ShopLiveShortformSDK\/IntermediateBuildFilesPath\/ShopLiveShortformSDK.build\/Release-iphonesimulator\/ShopLiveShortformSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1711,
-      "length": 23,
-      "value": "\"sl_ic_shortform_empty\""
     }
   ]
 }
