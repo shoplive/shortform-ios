@@ -1,9 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShopLiveShortformSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
+import DeveloperToolsSupport
 import Foundation
 import QuartzCore
 import ShopliveSDKCommon
@@ -14,6 +15,7 @@ import VideoToolbox
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum ShopLiveShortformSDKAsset {
   public static let slClosebutton: ShopLiveShortformSDK.ShopLiveShortformSDKImages
   public static let slIcBackBtn: ShopLiveShortformSDK.ShopLiveShortformSDKImages
@@ -395,6 +397,8 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func getShopliveWindow() -> UIKit.UIWindow?
   public static func setReferrer(referrer: Swift.String?)
   public static func setVisibileDetailViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleDetailData)
+  public static func setResizeMode(mode: ShopliveSDKCommon.ShopLiveResizeMode)
+  public static func setIsEnabledVolumeKey(isEnabled: Swift.Bool)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
