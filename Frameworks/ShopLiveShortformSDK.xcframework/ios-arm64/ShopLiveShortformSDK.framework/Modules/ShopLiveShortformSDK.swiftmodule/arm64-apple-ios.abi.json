@@ -3557,6 +3557,102 @@
           },
           {
             "kind": "Var",
+            "name": "isEnabledVolumeKey",
+            "printedName": "isEnabledVolumeKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvp",
+            "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvp",
+            "moduleName": "ShopLiveShortformSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvg",
+                "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvg",
+                "moduleName": "ShopLiveShortformSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvs",
+                "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvs",
+                "moduleName": "ShopLiveShortformSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvM",
+                "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC18isEnabledVolumeKeySbvM",
+                "moduleName": "ShopLiveShortformSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "previewPosition",
             "printedName": "previewPosition",
             "children": [
@@ -4767,7 +4863,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(shortsId:reference:productId:name:skus:url:tags:tagSearchOperator:brands:shuffle:referrer:isMuted:previewPosition:previewScale:previewRadius:previewEdgeInset:previewFloatingOffset:useCloseButton:enableSwipeOut:maxCount:useCustomAction:clickEventCallBack:)",
+            "printedName": "init(shortsId:isEnabledVolumeKey:reference:productId:name:skus:url:tags:tagSearchOperator:brands:shuffle:referrer:isMuted:previewPosition:previewScale:previewRadius:previewEdgeInset:previewFloatingOffset:useCloseButton:enableSwipeOut:maxCount:useCustomAction:clickEventCallBack:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4789,6 +4885,13 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -5134,8 +5237,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC8shortsId9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer7isMuted15previewPosition0W5Scale0W6Radius0W9EdgeInset0W14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_A3ZSaySSGSgAZA0_AA0ab3TagpQ0OSgA0_SbSgAZA4_AA0abC0C0eX0OSg14CoreFoundation7CGFloatVSgA13_So12UIEdgeInsetsVSgA16_A4_A4_SiSgSbyycSgtcfc",
-            "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC8shortsId9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer7isMuted15previewPosition0W5Scale0W6Radius0W9EdgeInset0W14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_A3ZSaySSGSgAZA0_AA0ab3TagpQ0OSgA0_SbSgAZA4_AA0abC0C0eX0OSg12CoreGraphics7CGFloatVSgA13_So12UIEdgeInsetsVSgA16_A4_A4_SiSgSbyycSgtcfc",
+            "usr": "s:20ShopLiveShortformSDK0abC11PreviewDataC8shortsId18isEnabledVolumeKey9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer0I5Muted15previewPosition0Z5Scale0Z6Radius0Z9EdgeInset0Z14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_SbA_A_A_SaySSGSgA_A1_AA0ab3TagtU0OSgA1_SbSgA_A5_AA0abC0C0E8PositionOSg14CoreFoundation7CGFloatVSgA14_So12UIEdgeInsetsVSgA17_A5_A5_SiSgSbyycSgtcfc",
+            "mangledName": "$s20ShopLiveShortformSDK0abC11PreviewDataC8shortsId18isEnabledVolumeKey9reference07productH04name4skus3url4tags17tagSearchOperator6brands7shuffle8referrer0I5Muted15previewPosition0Z5Scale0Z6Radius0Z9EdgeInset0Z14FloatingOffset14useCloseButton14enableSwipeOut8maxCount15useCustomAction18clickEventCallBackACSSSg_SbA_A_A_SaySSGSgA_A1_AA0ab3TagtU0OSgA1_SbSgA_A5_AA0abC0C0E8PositionOSg12CoreGraphics7CGFloatVSgA14_So12UIEdgeInsetsVSgA17_A5_A5_SiSgSbyycSgtcfc",
             "moduleName": "ShopLiveShortformSDK",
             "declAttributes": [
               "AccessControl"
@@ -15293,34 +15396,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "setIsEnabledVolumeKey",
-            "printedName": "setIsEnabledVolumeKey(isEnabled:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:20ShopLiveShortformSDK0abC0C21setIsEnabledVolumeKey02isG0ySb_tFZ",
-            "mangledName": "$s20ShopLiveShortformSDK0abC0C21setIsEnabledVolumeKey02isG0ySb_tFZ",
-            "moduleName": "ShopLiveShortformSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "TypeDecl",
             "name": "ReferenceByType",
             "printedName": "ReferenceByType",
@@ -22536,14 +22611,28 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/api\/RequestModels\/ShopLiveShortformPreviewData.swift",
       "kind": "BooleanLiteral",
-      "offset": 641,
+      "offset": 358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/api\/RequestModels\/ShopLiveShortformPreviewData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1532,
+      "offset": 690,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/api\/RequestModels\/ShopLiveShortformPreviewData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 892,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/api\/RequestModels\/ShopLiveShortformPreviewData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1616,
       "length": 5,
       "value": "false"
     },
@@ -24314,147 +24403,147 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "Array",
-      "offset": 3697,
+      "offset": 3762,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "Array",
-      "offset": 7276,
+      "offset": 7221,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8649,
+      "offset": 8594,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8671,
+      "offset": 8616,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8695,
+      "offset": 8640,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8720,
+      "offset": 8665,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8855,
+      "offset": 8800,
       "length": 13,
       "value": "\"bottomRight\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8922,
+      "offset": 8867,
       "length": 12,
       "value": "\"bottomLeft\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 8985,
+      "offset": 8930,
       "length": 9,
       "value": "\"topLeft\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9046,
+      "offset": 8991,
       "length": 10,
       "value": "\"topRight\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9101,
+      "offset": 9046,
       "length": 13,
       "value": "\"bottomRight\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "Array",
-      "offset": 9256,
+      "offset": 9201,
       "length": 51,
       "value": "[\"topLeft\", \"topRight\", \"bottomLeft\", \"bottomRight\"]"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8649,
+      "offset": 8594,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8671,
+      "offset": 8616,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8695,
+      "offset": 8640,
       "length": 11,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "IntegerLiteral",
-      "offset": 8720,
+      "offset": 8665,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 9959,
+      "offset": 9904,
       "length": 5,
       "value": "\"mp4\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 10011,
+      "offset": 9956,
       "length": 6,
       "value": "\"m3u8\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 10066,
+      "offset": 10011,
       "length": 5,
       "value": "\"png\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 10118,
+      "offset": 10063,
       "length": 5,
       "value": "\"gif\""
     },
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ShopLiveShortform.swift",
       "kind": "StringLiteral",
-      "offset": 10174,
+      "offset": 10119,
       "length": 9,
       "value": "\"unknown\""
     },
