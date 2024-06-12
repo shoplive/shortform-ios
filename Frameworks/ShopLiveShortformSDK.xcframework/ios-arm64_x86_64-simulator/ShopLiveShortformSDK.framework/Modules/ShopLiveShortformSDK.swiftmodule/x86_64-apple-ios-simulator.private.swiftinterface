@@ -395,6 +395,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
   public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformPreviewData)
   public static func close()
+  public static func getCurrentKeyWindow() -> UIKit.UIWindow?
   public static func getShopliveWindow() -> UIKit.UIWindow?
   public static func setReferrer(referrer: Swift.String?)
   public static func setVisibileDetailViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleDetailData)
