@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShopLiveShortformSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -16,7 +16,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum ShopLiveShortformSDKAsset {
+public enum ShopLiveShortformSDKAsset : Swift.Sendable {
   public static let slClosebutton: ShopLiveShortformSDK.ShopLiveShortformSDKImages
   public static let slIcBackBtn: ShopLiveShortformSDK.ShopLiveShortformSDKImages
   public static let slIcMediaFilled: ShopLiveShortformSDK.ShopLiveShortformSDKImages
@@ -25,24 +25,18 @@ public enum ShopLiveShortformSDKAsset {
   public static let slIcShopliveUserFill: ShopLiveShortformSDK.ShopLiveShortformSDKImages
   public static let slIcShortformEmpty: ShopLiveShortformSDK.ShopLiveShortformSDKImages
 }
-public struct ShopLiveShortformSDKImages {
-  public var name: Swift.String {
-    get
-  }
+public struct ShopLiveShortformSDKImages : Swift.Sendable {
+  public let name: Swift.String
   public typealias Image = UIKit.UIImage
   public var image: ShopLiveShortformSDK.ShopLiveShortformSDKImages.Image {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, xrOS 1.0, *)
   public var swiftUIImage: SwiftUI.Image {
     get
   }
 }
-extension UIKit.UIImage {
-  @available(macOS, deprecated, message: "This initializer is unsafe on macOS, please use the ShopLiveShortformSDKImages.image property")
-  convenience public init?(asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages)
-}
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, xrOS 1.0, *)
 extension SwiftUI.Image {
   public init(asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages)
   public init(asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages, label: SwiftUI.Text)
@@ -55,8 +49,17 @@ extension SwiftUI.Image {
   @objc override dynamic public init()
   @objc deinit
 }
-public enum ShopLiveShortformSDKStrings {
+public enum ShopLiveShortformSDKStrings : Swift.Sendable {
   public static let shortformListEmptyData: Swift.String
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class AVAssetDownloadManager : ObjectiveC.NSObject {
+  public static let shared: ShopLiveShortformSDK.AVAssetDownloadManager
+  final public func deleteCaches()
+  final public func enableDeleteCacheOnTerminate(isEnabled: Swift.Bool)
+  @objc deinit
+}
+extension ShopLiveShortformSDK.AVAssetDownloadManager : AVFoundation.AVAssetDownloadDelegate {
+  @objc final public func urlSession(_ session: Foundation.URLSession, assetDownloadTask: AVFoundation.AVAssetDownloadTask, didFinishDownloadingTo location: Foundation.URL)
 }
 @_inheritsConvenienceInitializers @objc public class ShopLiveShareMetaData : ObjectiveC.NSObject {
   public var title: Swift.String?
@@ -76,19 +79,25 @@ public class ShopLiveShortformCollectionData {
   public var shuffle: Swift.Bool?
   public var skus: [Swift.String]?
   public var shortsCollectionId: Swift.String?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?)
+  public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
 }
 public class ShopLiveShortformIdsData {
-  public var ids: [Swift.String]?
+  public var ids: [ShopLiveShortformSDK.ShopLiveShortformIdData]?
   public var currentId: Swift.String?
-  public init(ids: [Swift.String]?, currentId: Swift.String? = nil, referrer: Swift.String? = nil)
+  public init(ids: [ShopLiveShortformSDK.ShopLiveShortformIdData]?, currentId: Swift.String? = nil, referrer: Swift.String? = nil)
   @objc deinit
 }
+public struct ShopLiveShortformIdData {
+  public let shortsId: Swift.String
+  public let payload: [Swift.String : Any]?
+  public init(shortsId: Swift.String, payload: [Swift.String : Any]?)
+}
 public class ShopLiveShortformIdsMoreData {
-  public var ids: [Swift.String]?
+  public var ids: [ShopLiveShortformSDK.ShopLiveShortformIdData]?
   public var hasMore: Swift.Bool?
-  public init(ids: [Swift.String]? = nil, hasMore: Swift.Bool? = nil)
+  public init(ids: [ShopLiveShortformSDK.ShopLiveShortformIdData]? = nil, hasMore: Swift.Bool? = nil)
   @objc deinit
 }
 final public class ShopLiveShortformPreviewData : ShopLiveShortformSDK.ShopLiveShortformRelatedData {
@@ -104,7 +113,7 @@ final public class ShopLiveShortformPreviewData : ShopLiveShortformSDK.ShopLiveS
   final public var enableSwipeOut: Swift.Bool?
   final public var clickEventCallBack: (() -> ())?
   final public var maxCount: Swift.Int?
-  public init(shortsId: Swift.String? = nil, isEnabledVolumeKey: Swift.Bool = false, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, isMuted: Swift.Bool? = nil, previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition? = nil, previewScale: CoreFoundation.CGFloat? = nil, previewRadius: CoreFoundation.CGFloat? = nil, previewEdgeInset: UIKit.UIEdgeInsets? = nil, previewFloatingOffset: UIKit.UIEdgeInsets? = nil, useCloseButton: Swift.Bool? = nil, enableSwipeOut: Swift.Bool? = nil, maxCount: Swift.Int? = nil, useCustomAction: Swift.Bool = false, clickEventCallBack: (() -> ())? = nil)
+  public init(shortsId: Swift.String? = nil, isEnabledVolumeKey: Swift.Bool = false, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, isMuted: Swift.Bool? = nil, previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition? = nil, previewScale: CoreFoundation.CGFloat? = nil, previewRadius: CoreFoundation.CGFloat? = nil, previewEdgeInset: UIKit.UIEdgeInsets? = nil, previewFloatingOffset: UIKit.UIEdgeInsets? = nil, useCloseButton: Swift.Bool? = nil, enableSwipeOut: Swift.Bool? = nil, maxCount: Swift.Int? = nil, useCustomAction: Swift.Bool = false, clickEventCallBack: (() -> ())? = nil, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
 }
 public class ShopLiveShortformRelatedData {
@@ -118,7 +127,18 @@ public class ShopLiveShortformRelatedData {
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
-  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil)
+  public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
+  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+  @objc deinit
+}
+@objc final public class ShopLiveShortformActivityData : ObjectiveC.NSObject {
+  final public var viewCount: Swift.Int?
+  final public var likeCount: Swift.Int?
+  final public var commentCount: Swift.Int?
+  final public var bookmarkCount: Swift.Int?
+  final public var like: Swift.Bool?
+  final public var bookmark: Swift.Bool?
+  public init(viewCount: Swift.Int? = nil, likeCount: Swift.Int? = nil, commentCount: Swift.Int? = nil, bookmarkCount: Swift.Int? = nil, like: Swift.Bool? = nil, bookmark: Swift.Bool? = nil)
   @objc deinit
 }
 public struct BrandModel : Swift.Codable {
@@ -131,6 +151,47 @@ public struct BrandModel : Swift.Codable {
   public var imageUrl: Swift.String?
   public var name: Swift.String?
   public var traceId: Swift.String?
+  @objc deinit
+}
+@objc final public class ShopLiveShortformCardData : ObjectiveC.NSObject {
+  final public var duration: Swift.Int?
+  final public var playCount: Swift.Int?
+  final public var playDuration: Swift.Int?
+  final public var source: Swift.String?
+  final public var videoId: Swift.String?
+  final public var campaignId: Swift.String?
+  final public var clips: [ShopLiveShortformSDK.ShopLiveShortformClipData]?
+  final public var videoUrl: Swift.String?
+  final public var previewVideoUrl: Swift.String?
+  final public var screenShotUrl: Swift.String?
+  final public var specifiedScreenShotUrl: Swift.String?
+  final public var cardType: Swift.String?
+  final public var srn: Swift.String?
+  final public var playerType: Swift.String?
+  final public var timeOnlyClips: [ShopLiveShortformSDK.ShopLiveShortformTimeOnlyClipData]?
+  final public var width: CoreFoundation.CGFloat?
+  final public var heigh: CoreFoundation.CGFloat?
+  final public var externalVideoType: Swift.String?
+  final public var externalVideoUrl: Swift.String?
+  final public var externalVideoId: Swift.String?
+  final public var externalVideoThumbnail: Swift.String?
+  public init(duration: Swift.Int? = nil, playCount: Swift.Int? = nil, playDuration: Swift.Int? = nil, source: Swift.String? = nil, videoId: Swift.String? = nil, campaignId: Swift.String? = nil, clips: [ShopLiveShortformSDK.ShopLiveShortformClipData]? = nil, videoUrl: Swift.String? = nil, previewVideoUrl: Swift.String? = nil, screenShotUrl: Swift.String? = nil, specifiedScreenShotUrl: Swift.String? = nil, cardType: Swift.String? = nil, srn: Swift.String? = nil, playerType: Swift.String? = nil, timeOnlyClips: [ShopLiveShortformSDK.ShopLiveShortformTimeOnlyClipData]? = nil, width: CoreFoundation.CGFloat? = nil, heigh: CoreFoundation.CGFloat? = nil, externalVideoType: Swift.String? = nil, externalVideoUrl: Swift.String? = nil, externalVideoId: Swift.String? = nil, externalVideoThumbnail: Swift.String? = nil)
+  @objc deinit
+}
+@objc final public class ShopLiveShortformClipData : ObjectiveC.NSObject {
+  final public var title: Swift.String?
+  final public var clipTitle: Swift.String?
+  final public var from: Swift.Int?
+  final public var to: Swift.Int?
+  public init(title: Swift.String? = nil, clipTitle: Swift.String? = nil, from: Swift.Int? = nil, to: Swift.Int? = nil)
+  @objc deinit
+}
+@objc final public class ShopLiveShortformTimeOnlyClipData : ObjectiveC.NSObject {
+  final public var title: Swift.String?
+  final public var from: Swift.Double?
+  final public var to: Swift.Double?
+  final public var subTitles: [Swift.String]?
+  public init(title: Swift.String? = nil, from: Swift.Double? = nil, to: Swift.Double? = nil, subTitles: [Swift.String]? = nil)
   @objc deinit
 }
 public struct Creator : Swift.Codable {
@@ -230,7 +291,7 @@ public struct ShortsDetail : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@_hasMissingDesignatedInitializers @objc public class ShortsDetailData : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc public class ShopLiveShortformDetailData : ObjectiveC.NSObject {
   public var title: Swift.String?
   public var descriptions: Swift.String?
   public var tags: [Swift.String]?
@@ -265,6 +326,17 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     public func encode(to encoder: any Swift.Encoder) throws
   }
 }
+@objc final public class ShopLiveShortformData : ObjectiveC.NSObject {
+  final public var shortsId: Swift.String?
+  final public var srn: Swift.String?
+  final public var activity: ShopLiveShortformSDK.ShopLiveShortformActivityData?
+  final public var cards: [ShopLiveShortformSDK.ShopLiveShortformCardData]?
+  final public var shortsDetail: ShopLiveShortformSDK.ShopLiveShortformDetailData?
+  final public var shortsType: Swift.String?
+  final public var rawDictionary: [Swift.String : Any]?
+  public init(shortsId: Swift.String? = nil, srn: Swift.String? = nil, activity: ShopLiveShortformSDK.ShopLiveShortformActivityData? = nil, cards: [ShopLiveShortformSDK.ShopLiveShortformCardData]? = nil, shortsDetail: ShopLiveShortformSDK.ShopLiveShortformDetailData? = nil, shortsType: Swift.String? = nil, rawDictionary: [Swift.String : Any]? = nil)
+  @objc deinit
+}
 extension ShopLiveShortformSDK.ShopLiveShortform {
   @_hasMissingDesignatedInitializers final public class BridgeInterface {
     public static func connect(_ webview: WebKit.WKWebView)
@@ -284,17 +356,13 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   @objc optional func handleShare(shareUrl: Swift.String)
   @objc optional func handleShare(shareMetadata: ShopLiveShortformSDK.ShopLiveShareMetaData)
   @objc optional func onError(error: any Swift.Error)
-  @objc optional func onEvent(command: Swift.String, payload: Swift.String?)
+  @objc optional func onEvent(webView: ShopLiveShortformSDK.ShopLiveWebViewWrapper?, command: Swift.String, payload: Swift.String?)
   @objc optional func onDidDisAppear()
   @objc optional func onDidAppear()
   @objc optional func handleProductItem(shortsId: Swift.String, shortsSrn: Swift.String, product: ShopLiveShortformSDK.ProductData)
-  @objc optional func handleProductBanner(shortsId: Swift.String, shortsSrn: Swift.String, scheme: Swift.String, shortsDetail: ShopLiveShortformSDK.ShortsDetailData)
-}
-extension ShopLiveShortformSDK.ShopLiveShortform {
-  @_hasMissingDesignatedInitializers final public class Delegate {
-    public static func setDelegate(_ delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
-    @objc deinit
-  }
+  @objc optional func handleProductBanner(shortsId: Swift.String, shortsSrn: Swift.String, scheme: Swift.String, shortsDetail: ShopLiveShortformSDK.ShopLiveShortformDetailData)
+  @objc optional func onShortsAttached(data: ShopLiveShortformSDK.ShopLiveShortformData)
+  @objc optional func onShortsDetached(data: ShopLiveShortformSDK.ShopLiveShortformData)
 }
 public enum ShopLiveTagSearchOperator : Swift.String {
   case AND
@@ -374,14 +442,14 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   }
   @_inheritsConvenienceInitializers public class CardTypeViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 16, viewCountVisibility: Swift.Bool = true, avAudioSessionCategoryOptions: AVFAudio.AVAudioSession.CategoryOptions? = nil) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, shortsCollectionDelegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 16, viewCountVisibility: Swift.Bool = true, avAudioSessionCategoryOptions: AVFAudio.AVAudioSession.CategoryOptions? = nil) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
   }
   @_inheritsConvenienceInitializers public class ListViewBuilder : ShopLiveShortformSDK.ListViewBaseBuilder {
     @discardableResult
-    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 12, viewCountVisibility: Swift.Bool = true, avAudioSessionCategoryOptions: AVFAudio.AVAudioSession.CategoryOptions? = nil) -> Self
+    public func build(cardViewType: ShopLiveShortformSDK.ShopLiveShortform.CardViewType = .type1, listViewType: ShopLiveShortformSDK.ShopLiveShortform.ListViewType, playableType: ShopLiveShortformSDK.ShopLiveShortform.PlayableType = .FIRST, listViewDelegate: (any ShopLiveShortformSDK.ShopLiveShortformListViewDelegate)? = nil, shortsCollectionDelegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?, enableSnap: Swift.Bool = false, enablePlayVideo: Swift.Bool = true, playOnlyOnWifi: Swift.Bool = false, cellSpacing: CoreFoundation.CGFloat = 8, cellRadius: CoreFoundation.CGFloat = 12, viewCountVisibility: Swift.Bool = true, avAudioSessionCategoryOptions: AVFAudio.AVAudioSession.CategoryOptions? = nil) -> Self
     public func getView() -> UIKit.UIView
     override public init()
     @objc deinit
@@ -390,7 +458,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
 @_hasMissingDesignatedInitializers public class ShopLiveShortform {
   public static var sdkVersion: Swift.String
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
-  public static func play(shortformIdsData: ShopLiveShortformSDK.ShopLiveShortformIdsData, delegate: any ShopLiveShortformSDK.ShortsCollectionViewDataSourcRequestDelegate)
+  public static func play(shortformIdsData: ShopLiveShortformSDK.ShopLiveShortformIdsData, dataSourceDelegate: any ShopLiveShortformSDK.ShortsCollectionViewDataSourcRequestDelegate, shortsCollectionDelegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @available(iOS, deprecated: 1.4.6, message: "this method will be removed on 1.4.7")
   public static func play(requestData: ShopLiveShortformSDK.ShopLiveShortformRelatedData?)
   public static func showPreview(requestData: ShopLiveShortformSDK.ShopLiveShortformPreviewData)
@@ -418,6 +486,28 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
       get
     }
   }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ShopLiveShortsCollectionView : UIKit.UIView, ShopliveSDKCommon.SLReactor {
+  public enum Action {
+    case onStartRotation(size: CoreFoundation.CGSize)
+    case onChangingRotation(size: CoreFoundation.CGSize)
+    case onFinishedRotation(size: CoreFoundation.CGSize)
+    case play
+    case pause
+  }
+  public enum Result {
+  }
+  @_Concurrency.MainActor(unsafe) public var resultHandler: ((ShopLiveShortformSDK.ShopLiveShortsCollectionView.Result) -> ())?
+  @_Concurrency.MainActor(unsafe) public init(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
+  @_Concurrency.MainActor(unsafe) public init(shortformIdsData: ShopLiveShortformSDK.ShopLiveShortformIdsData, dataSourceDelegate: any ShopLiveShortformSDK.ShortsCollectionViewDataSourcRequestDelegate, shortsCollectionDelegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func action(_ action: ShopLiveShortformSDK.ShopLiveShortsCollectionView.Action)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class ShopLiveWebViewWrapper : ObjectiveC.NSObject {
+  final public let webView: UIKit.UIView
+  @objc deinit
+  public func evaluateJavaScript(command: Swift.String, payload: [Swift.String : Any])
 }
 public protocol ShortsCollectionViewDataSourcRequestDelegate : AnyObject {
   func onShortformListPagination(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))
