@@ -318,70 +318,24 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK22AVAssetDownloadManager")
 @end
 
 
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK9BrandData")
-@interface BrandData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK17ProductBannerData")
-@interface ProductBannerData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK11ProductData")
-@interface ProductData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 
 SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShareMetaData")
 @interface ShopLiveShareMetaData : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK29ShopLiveShortformActivityData")
-@interface ShopLiveShortformActivityData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK25ShopLiveShortformCardData")
-@interface ShopLiveShortformCardData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK25ShopLiveShortformClipData")
-@interface ShopLiveShortformClipData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK21ShopLiveShortformData")
-@interface ShopLiveShortformData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK27ShopLiveShortformDetailData")
-@interface ShopLiveShortformDetailData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
+@class UIView;
 @class NSString;
-@class ShopLiveWebViewWrapper;
+
+SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK26ShopLiveShortformMessenger_")
+@protocol ShopLiveShortformMessenger
+@property (nonatomic, readonly, strong) UIView * _Nonnull view;
+- (void)sendCommandMessageWithCommand:(NSString * _Nonnull)command payload:(NSDictionary<NSString *, id> * _Nonnull)payload;
+@end
+
+@class ProductData;
+@class ShopLiveShortformDetailData;
+@class ShopLiveShortformData;
 
 SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDelegate_")
 @protocol ShopLiveShortformReceiveHandlerDelegate
@@ -389,7 +343,7 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDeleg
 - (void)handleShareWithShareUrl:(NSString * _Nonnull)shareUrl;
 - (void)handleShareWithShareMetadata:(ShopLiveShareMetaData * _Nonnull)shareMetadata;
 - (void)onErrorWithError:(NSError * _Nonnull)error;
-- (void)onEventWithWebView:(ShopLiveWebViewWrapper * _Nullable)webView command:(NSString * _Nonnull)command payload:(NSString * _Nullable)payload;
+- (void)onEventWithMessenger:(id <ShopLiveShortformMessenger> _Nullable)messenger command:(NSString * _Nonnull)command payload:(NSString * _Nullable)payload;
 - (void)onDidDisAppear;
 - (void)onDidAppear;
 - (void)handleProductItemWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn product:(ProductData * _Nonnull)product;
@@ -410,13 +364,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) NSBundle * _
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK33ShopLiveShortformTimeOnlyClipData")
-@interface ShopLiveShortformTimeOnlyClipData : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 @class NSCoder;
 
 SWIFT_CLASS("_TtC20ShopLiveShortformSDK28ShopLiveShortsCollectionView")
@@ -427,13 +374,6 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK28ShopLiveShortsCollectionView")
 @end
 
 
-
-
-SWIFT_CLASS("_TtC20ShopLiveShortformSDK22ShopLiveWebViewWrapper")
-@interface ShopLiveWebViewWrapper : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 
