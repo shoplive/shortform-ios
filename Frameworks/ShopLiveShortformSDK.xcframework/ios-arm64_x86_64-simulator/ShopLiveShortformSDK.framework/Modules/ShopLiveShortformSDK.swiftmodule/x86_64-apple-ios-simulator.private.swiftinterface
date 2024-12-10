@@ -289,7 +289,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     case remove(Swift.String)
     case play
     case pause
-    case isScrollEnabled(Swift.Bool)
+    case setScrollEnabled(Swift.Bool)
   }
   public enum Result {
   }
