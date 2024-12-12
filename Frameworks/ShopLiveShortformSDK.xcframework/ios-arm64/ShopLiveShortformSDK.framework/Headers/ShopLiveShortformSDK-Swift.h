@@ -334,7 +334,6 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK26ShopLiveShortformMessenger_")
 @end
 
 @class ProductData;
-@class ShopLiveShortformDetailData;
 @class ShopLiveShortformData;
 
 SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDelegate_")
@@ -347,7 +346,7 @@ SWIFT_PROTOCOL("_TtP20ShopLiveShortformSDK39ShopLiveShortformReceiveHandlerDeleg
 - (void)onDidDisAppear;
 - (void)onDidAppear;
 - (void)handleProductItemWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn product:(ProductData * _Nonnull)product;
-- (void)handleProductBannerWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn scheme:(NSString * _Nonnull)scheme shortsDetail:(ShopLiveShortformDetailData * _Nonnull)shortsDetail;
+- (void)handleProductBannerWithShortsId:(NSString * _Nonnull)shortsId shortsSrn:(NSString * _Nonnull)shortsSrn scheme:(NSString * _Nonnull)scheme;
 /// collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath)와 똑같은 시점에 호출됩니다.
 - (void)onShortsAttachedWithData:(ShopLiveShortformData * _Nonnull)data;
 /// collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath)와 똑같은 시점에 호출됩니다.

@@ -154,7 +154,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   @objc optional func onDidDisAppear()
   @objc optional func onDidAppear()
   @objc optional func handleProductItem(shortsId: Swift.String, shortsSrn: Swift.String, product: ShopliveSDKCommon.ProductData)
-  @objc optional func handleProductBanner(shortsId: Swift.String, shortsSrn: Swift.String, scheme: Swift.String, shortsDetail: ShopliveSDKCommon.ShopLiveShortformDetailData)
+  @objc optional func handleProductBanner(shortsId: Swift.String, shortsSrn: Swift.String, scheme: Swift.String)
   @objc optional func onShortsAttached(data: ShopliveSDKCommon.ShopLiveShortformData)
   @objc optional func onShortsDetached(data: ShopliveSDKCommon.ShopLiveShortformData)
 }
