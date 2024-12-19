@@ -79,7 +79,7 @@ public class ShopLiveShortformCollectionData {
   public var shuffle: Swift.Bool?
   public var skus: [Swift.String]?
   public var shortsCollectionId: Swift.String?
-  public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
+  weak public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
   public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
 }
@@ -290,6 +290,8 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     case play
     case pause
     case setScrollEnabled(Swift.Bool)
+    case setInActive
+    case setActive
   }
   public enum Result {
   }
