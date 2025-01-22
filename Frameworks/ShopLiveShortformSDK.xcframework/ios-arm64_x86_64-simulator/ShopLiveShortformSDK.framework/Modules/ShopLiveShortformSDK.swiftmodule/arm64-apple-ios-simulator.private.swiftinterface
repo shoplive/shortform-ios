@@ -79,8 +79,9 @@ public class ShopLiveShortformCollectionData {
   public var shuffle: Swift.Bool?
   public var skus: [Swift.String]?
   public var shortsCollectionId: Swift.String?
+  public var isMuted: Swift.Bool?
   weak public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?, isMuted: Swift.Bool? = false, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
 }
 public class ShopLiveShortformIdsData {
@@ -101,7 +102,6 @@ public class ShopLiveShortformIdsMoreData {
   @objc deinit
 }
 final public class ShopLiveShortformPreviewData : ShopLiveShortformSDK.ShopLiveShortformRelatedData {
-  final public var isMuted: Swift.Bool?
   final public var isEnabledVolumeKey: Swift.Bool
   final public var previewPosition: ShopLiveShortformSDK.ShopLiveShortform.PreviewPosition?
   final public var previewScale: CoreFoundation.CGFloat?
@@ -127,8 +127,9 @@ public class ShopLiveShortformRelatedData {
   public var tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator?
   public var brands: [Swift.String]?
   public var shuffle: Swift.Bool?
+  public var isMuted: Swift.Bool?
   public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
-  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+  public init(shortsId: Swift.String? = nil, reference: Swift.String? = nil, productId: Swift.String? = nil, name: Swift.String? = nil, skus: [Swift.String]? = nil, url: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, isMuted: Swift.Bool? = false, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
@@ -141,7 +142,8 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
 }
 @_hasMissingDesignatedInitializers public class ShortFormConfigurationInfosManager {
   public static let shared: ShopLiveShortformSDK.ShortFormConfigurationInfosManager
-  public func getRequestCount() -> Swift.Int
+  public func getDetailApiInitializeCount() -> Swift.Int
+  public func getDetailApiPaginationCount() -> Swift.Int
   public func getBaseUrl() -> Swift.String
   public func setConfigurationURLToEmpty()
   @objc deinit
@@ -262,6 +264,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func setReferrer(referrer: Swift.String?)
   public static func setVisibileDetailViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleDetailData)
   public static func setResizeMode(mode: ShopliveSDKCommon.ShopLiveResizeMode)
+  public static func setEnableResumeOnForeGround(enable: Swift.Bool)
   @objc deinit
 }
 extension ShopLiveShortformSDK.ShopLiveShortform {
@@ -292,6 +295,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     case setScrollEnabled(Swift.Bool)
     case setInActive
     case setActive
+    case setMuted(Swift.Bool)
   }
   public enum Result {
   }
@@ -307,7 +311,8 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   @objc func sendCommandMessage(command: Swift.String, payload: [Swift.String : Any])
 }
 public protocol ShortsCollectionViewDataSourcRequestDelegate : AnyObject {
-  func onShortformListPagination(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))
+  func onShortformListDownwardPagination(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))
+  func onShortformListUpwardPagingation(completion: @escaping (((ShopLiveShortformSDK.ShopLiveShortformIdsMoreData?, (any Swift.Error)?)) -> ()))
 }
 public struct ShopLiveShortformVisibleDetailData {
   public var isBookMarkVisible: Swift.Bool
