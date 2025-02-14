@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		prmMJI1jnjES11jD7bDLjdd3SoM=
+		1+WEF3PYDqOiyIbrPVrc9NIibkg=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tPzS4bt2uHLINAg3USCLcPG4oWI=
+		c3GqEjK4IJ9ks3Gz3vuwURhGbQw=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		prmMJI1jnjES11jD7bDLjdd3SoM=
+		1+WEF3PYDqOiyIbrPVrc9NIibkg=
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8fl6ZLxoYePZDZ4ETl6smV2j1Bc=
+		wOFt0jnmzB3SdVEDLmD8f8YT1Wk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPWad2imfMisBY7+jwvdP+KikLOQoiTs4ZwYNG+ogMk=
+			bweS6e8Eu9yQINfRTPCnRaGGCrywDnw0Bvldshn9+sU=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -135,14 +135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oneJYXYJRxgXnXB19k9ihXhXeriK8GSo0rmKUQoQcHA=
+			/kNa2ZkZxjmZM1KLn50wxy7tJwt6xUEPX7ZzujAcx8U=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPWad2imfMisBY7+jwvdP+KikLOQoiTs4ZwYNG+ogMk=
+			bweS6e8Eu9yQINfRTPCnRaGGCrywDnw0Bvldshn9+sU=
 			</data>
 		</dict>
 		<key>Modules/ShopLiveShortformSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TE4dSERj0GaUGXF0+3QiD1nraPCE9avZGAENNncU7zw=
+			4wcyR0WQvUYuaNEAT2nRJHWLOaRX1jFm+oz5maY+kMA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
