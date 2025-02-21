@@ -81,7 +81,7 @@ public class ShopLiveShortformCollectionData {
   public var shortsCollectionId: Swift.String?
   public var isMuted: Swift.Bool?
   weak public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?, isMuted: Swift.Bool? = false, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String? = nil, isMuted: Swift.Bool? = false, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
 }
 public class ShopLiveShortformIdsData {

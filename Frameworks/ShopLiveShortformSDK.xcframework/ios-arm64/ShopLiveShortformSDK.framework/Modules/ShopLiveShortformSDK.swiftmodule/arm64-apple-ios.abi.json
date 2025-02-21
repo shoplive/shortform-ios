@@ -3193,6 +3193,7 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -15757,7 +15758,7 @@
     {
       "filePath": "\/Users\/sangminhan\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/api\/RequestModels\/ShopLiveShortformCollectionData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1040,
+      "offset": 1046,
       "length": 5,
       "value": "false"
     },
