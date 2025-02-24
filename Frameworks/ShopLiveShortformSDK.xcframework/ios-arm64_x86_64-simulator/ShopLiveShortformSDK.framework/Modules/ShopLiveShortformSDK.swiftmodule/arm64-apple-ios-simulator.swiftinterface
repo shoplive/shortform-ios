@@ -296,6 +296,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     case setInActive
     case setActive
     case setMuted(Swift.Bool)
+    case viewDidLayoutSubView
   }
   public enum Result {
   }
