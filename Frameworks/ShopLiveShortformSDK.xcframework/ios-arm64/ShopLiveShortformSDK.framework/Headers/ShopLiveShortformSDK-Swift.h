@@ -378,6 +378,7 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK28ShopLiveShortsCollectionView")
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

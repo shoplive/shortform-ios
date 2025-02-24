@@ -378,6 +378,7 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK28ShopLiveShortsCollectionView")
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -759,6 +760,7 @@ SWIFT_CLASS("_TtC20ShopLiveShortformSDK28ShopLiveShortsCollectionView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 

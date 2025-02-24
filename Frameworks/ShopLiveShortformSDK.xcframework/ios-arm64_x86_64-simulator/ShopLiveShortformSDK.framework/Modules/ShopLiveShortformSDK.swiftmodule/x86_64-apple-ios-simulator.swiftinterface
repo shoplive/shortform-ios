@@ -299,6 +299,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     case viewDidLayoutSubView
   }
   public enum Result {
+    case didScrollToShortsId(Swift.String?)
   }
   @_Concurrency.MainActor(unsafe) public var resultHandler: ((ShopLiveShortformSDK.ShopLiveShortsCollectionView.Result) -> ())?
   @_Concurrency.MainActor(unsafe) public init(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
