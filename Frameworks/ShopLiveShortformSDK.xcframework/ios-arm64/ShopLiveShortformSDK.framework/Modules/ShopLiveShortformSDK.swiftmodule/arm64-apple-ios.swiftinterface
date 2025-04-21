@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ShopLiveShortformSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ShopLiveShortformSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
 import DeveloperToolsSupport
@@ -31,15 +31,15 @@ public struct ShopLiveShortformSDKImages : Swift.Sendable {
   public var image: ShopLiveShortformSDK.ShopLiveShortformSDKImages.Image {
     get
   }
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, xrOS 1.0, *)
-  public var swiftUIImage: SwiftUI.Image {
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  public var swiftUIImage: SwiftUICore.Image {
     get
   }
 }
-@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, xrOS 1.0, *)
-extension SwiftUI.Image {
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUICore.Image {
   public init(asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages)
-  public init(asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages, label: SwiftUI.Text)
+  public init(asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages, label: SwiftUICore.Text)
   public init(decorative asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages)
 }
 @_inheritsConvenienceInitializers @objc public class ShopLiveShortformSDKResources : ObjectiveC.NSObject {
@@ -81,7 +81,7 @@ public class ShopLiveShortformCollectionData {
   public var shortsCollectionId: Swift.String?
   public var isMuted: Swift.Bool?
   weak public var delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?
-  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String? = nil, isMuted: Swift.Bool? = false, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+  public init(reference: Swift.String? = nil, shortsId: Swift.String? = nil, tags: [Swift.String]? = nil, tagSearchOperator: ShopLiveShortformSDK.ShopLiveTagSearchOperator? = nil, brands: [Swift.String]? = nil, shuffle: Swift.Bool? = nil, referrer: Swift.String? = nil, skus: [Swift.String]? = nil, shortsCollectionId: Swift.String?, isMuted: Swift.Bool? = false, delegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
 }
 public class ShopLiveShortformIdsData {
@@ -284,7 +284,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     }
   }
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ShopLiveShortsCollectionView : UIKit.UIView, ShopliveSDKCommon.SLReactor {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class ShopLiveShortsCollectionView : UIKit.UIView, ShopliveSDKCommon.SLReactor {
   public enum Action {
     case onStartRotation(size: CoreFoundation.CGSize)
     case onChangingRotation(size: CoreFoundation.CGSize)
@@ -296,17 +296,15 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
     case setInActive
     case setActive
     case setMuted(Swift.Bool)
-    case viewDidLayoutSubView
   }
   public enum Result {
-    case didScrollToShortsId(Swift.String?)
   }
-  @_Concurrency.MainActor(unsafe) public var resultHandler: ((ShopLiveShortformSDK.ShopLiveShortsCollectionView.Result) -> ())?
-  @_Concurrency.MainActor(unsafe) public init(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
-  @_Concurrency.MainActor(unsafe) public init(shortformIdsData: ShopLiveShortformSDK.ShopLiveShortformIdsData, dataSourceDelegate: any ShopLiveShortformSDK.ShortsCollectionViewDataSourcRequestDelegate, shortsCollectionDelegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
+  @_Concurrency.MainActor @preconcurrency public var resultHandler: ((ShopLiveShortformSDK.ShopLiveShortsCollectionView.Result) -> ())?
+  @_Concurrency.MainActor @preconcurrency public init(requestData: ShopLiveShortformSDK.ShopLiveShortformCollectionData?)
+  @_Concurrency.MainActor @preconcurrency public init(shortformIdsData: ShopLiveShortformSDK.ShopLiveShortformIdsData, dataSourceDelegate: any ShopLiveShortformSDK.ShortsCollectionViewDataSourcRequestDelegate, shortsCollectionDelegate: (any ShopLiveShortformSDK.ShopLiveShortformReceiveHandlerDelegate)?)
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) public func action(_ action: ShopLiveShortformSDK.ShopLiveShortsCollectionView.Action)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency public func action(_ action: ShopLiveShortformSDK.ShopLiveShortsCollectionView.Action)
 }
 @objc public protocol ShopLiveShortformMessenger {
   @objc var view: UIKit.UIView { get }
