@@ -145,6 +145,7 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public func getDetailApiInitializeCount() -> Swift.Int
   public func getDetailApiPaginationCount() -> Swift.Int
   public func getBaseUrl() -> Swift.String
+  public func getDetailUrl() -> Swift.String
   public func setConfigurationURLToEmpty()
   @objc deinit
 }

@@ -8175,6 +8175,27 @@
           },
           {
             "kind": "Function",
+            "name": "getDetailUrl",
+            "printedName": "getDetailUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20ShopLiveShortformSDK34ShortFormConfigurationInfosManagerC12getDetailUrlSSyF",
+            "mangledName": "$s20ShopLiveShortformSDK34ShortFormConfigurationInfosManagerC12getDetailUrlSSyF",
+            "moduleName": "ShopLiveShortformSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setConfigurationURLToEmpty",
             "printedName": "setConfigurationURLToEmpty()",
             "children": [
@@ -17245,84 +17266,84 @@
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "StringLiteral",
-      "offset": 893,
+      "offset": 992,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "StringLiteral",
-      "offset": 947,
+      "offset": 1046,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "StringLiteral",
-      "offset": 1628,
+      "offset": 1727,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "StringLiteral",
-      "offset": 1667,
+      "offset": 1766,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1705,
+      "offset": 1804,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "StringLiteral",
-      "offset": 1766,
+      "offset": 1865,
       "length": 69,
       "value": "\"https:\/\/config.shoplive.cloud\/\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "StringLiteral",
-      "offset": 1809,
+      "offset": 1908,
       "length": 1,
       "value": "\"\/sdk_shorts_settings.json\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "StringLiteral",
-      "offset": 2007,
+      "offset": 2106,
       "length": 30,
       "value": "\"failed to make urlComponents\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2806,
+      "offset": 2905,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3619,
+      "offset": 3718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3749,
+      "offset": 3848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/interface\/ConfigAndAuth\/ShortFormConfigurationInfosManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3926,
+      "offset": 4025,
       "length": 4,
       "value": "true"
     },
@@ -21298,756 +21319,756 @@
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 17032,
+      "offset": 17027,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 17077,
+      "offset": 17072,
       "length": 9,
       "value": "\"YOUTUBE\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 17089,
+      "offset": 17084,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 17096,
+      "offset": 17091,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 17436,
+      "offset": 17431,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 17504,
+      "offset": 17499,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 17590,
+      "offset": 17585,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 17617,
+      "offset": 17612,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 17709,
+      "offset": 17704,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18399,
+      "offset": 18394,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19166,
+      "offset": 19161,
       "length": 9,
       "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19366,
+      "offset": 19361,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19752,
+      "offset": 19747,
       "length": 5,
       "value": "\"ids\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19827,
+      "offset": 19822,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 19907,
+      "offset": 19902,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "Dictionary",
-      "offset": 20712,
+      "offset": 20707,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 20745,
+      "offset": 20740,
       "length": 14,
       "value": "\"disableGuide\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 20832,
+      "offset": 20827,
       "length": 4,
       "value": "\"ak\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 20873,
+      "offset": 20868,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 20977,
+      "offset": 20972,
       "length": 9,
       "value": "\"userJWT\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21107,
+      "offset": 21102,
       "length": 10,
       "value": "\"guestUid\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21243,
+      "offset": 21238,
       "length": 10,
       "value": "\"referrer\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 21273,
+      "offset": 21268,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21410,
+      "offset": 21405,
       "length": 14,
       "value": "\"adIdentifier\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21465,
+      "offset": 21460,
       "length": 6,
       "value": "\"idfa\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21595,
+      "offset": 21590,
       "length": 6,
       "value": "\"ceId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21725,
+      "offset": 21720,
       "length": 8,
       "value": "\"anonId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 21876,
+      "offset": 21871,
       "length": 19,
       "value": "\"shopliveSessionId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 21992,
+      "offset": 21987,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22024,
+      "offset": 22019,
       "length": 6,
       "value": "\"idfv\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22142,
+      "offset": 22137,
       "length": 12,
       "value": "\"utm_source\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22274,
+      "offset": 22269,
       "length": 13,
       "value": "\"utm_content\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22410,
+      "offset": 22405,
       "length": 14,
       "value": "\"utm_campaign\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22544,
+      "offset": 22539,
       "length": 12,
       "value": "\"utm_medium\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22610,
+      "offset": 22605,
       "length": 8,
       "value": "\"eSlSid\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22648,
+      "offset": 22643,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22680,
+      "offset": 22675,
       "length": 12,
       "value": "\"appVersion\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22746,
+      "offset": 22741,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 22867,
+      "offset": 22862,
       "length": 10,
       "value": "\"safeArea\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "Dictionary",
-      "offset": 22881,
+      "offset": 22876,
       "length": 124,
       "value": "[(\"top\", 0), (\"right\", 0), (\"bottom\", 0), (\"left\", 0)]"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23055,
+      "offset": 23050,
       "length": 10,
       "value": "\"safeArea\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23087,
+      "offset": 23082,
       "length": 5,
       "value": "\"top\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23135,
+      "offset": 23130,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23186,
+      "offset": 23181,
       "length": 8,
       "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23240,
+      "offset": 23235,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23373,
+      "offset": 23368,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23476,
+      "offset": 23471,
       "length": 9,
       "value": "\"startId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23599,
+      "offset": 23594,
       "length": 9,
       "value": "\"startId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23723,
+      "offset": 23718,
       "length": 19,
       "value": "\"shopliveSessionId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23861,
+      "offset": 23856,
       "length": 4,
       "value": "\"ui\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 23977,
+      "offset": 23972,
       "length": 4,
       "value": "\"ui\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 24063,
+      "offset": 24058,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 24185,
+      "offset": 24180,
       "length": 11,
       "value": "\"youtubeId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 25647,
+      "offset": 25642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 25855,
+      "offset": 25850,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 26101,
+      "offset": 26096,
       "length": 9,
       "value": "\"YOUTUBE\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 26482,
+      "offset": 26477,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 27400,
+      "offset": 27395,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 27418,
+      "offset": 27413,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 27472,
+      "offset": 27467,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 27498,
+      "offset": 27493,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 28687,
+      "offset": 28682,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 28742,
+      "offset": 28737,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 29185,
+      "offset": 29180,
       "length": 11,
       "value": "\"enableTap\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 29223,
+      "offset": 29218,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 29723,
+      "offset": 29718,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 29746,
+      "offset": 29741,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 29843,
+      "offset": 29838,
       "length": 12,
       "value": "\"foreground\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 30113,
+      "offset": 30108,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 30136,
+      "offset": 30131,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 30233,
+      "offset": 30228,
       "length": 12,
       "value": "\"background\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 31456,
+      "offset": 31451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 31530,
+      "offset": 31525,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 31545,
+      "offset": 31540,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 31633,
+      "offset": 31628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 32068,
+      "offset": 32063,
       "length": 29,
       "value": "\"[SHAHRE] payload \""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 32096,
+      "offset": 32091,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 32129,
+      "offset": 32124,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 32239,
+      "offset": 32234,
       "length": 8,
       "value": "\"shorts\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 32311,
+      "offset": 32306,
       "length": 14,
       "value": "\"shortsDetail\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 34600,
+      "offset": 34595,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 34659,
+      "offset": 34654,
       "length": 7,
       "value": "\"brand\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 34728,
+      "offset": 34723,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 34794,
+      "offset": 34789,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 34854,
+      "offset": 34849,
       "length": 10,
       "value": "\"shortsId\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 34918,
+      "offset": 34913,
       "length": 5,
       "value": "\"srn\""
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 35224,
+      "offset": 35219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 35447,
+      "offset": 35442,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 35498,
+      "offset": 35493,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 35793,
+      "offset": 35788,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 36488,
+      "offset": 36483,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 36836,
+      "offset": 36831,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 36933,
+      "offset": 36928,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 36983,
+      "offset": 36978,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 36987,
+      "offset": 36982,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 37023,
+      "offset": 37018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 37790,
+      "offset": 37785,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 37939,
+      "offset": 37934,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 39331,
+      "offset": 39326,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 39522,
+      "offset": 39517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 39853,
+      "offset": 39848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 39919,
+      "offset": 39914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 40005,
+      "offset": 40000,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 40035,
+      "offset": 40030,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 40360,
+      "offset": 40355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 40458,
+      "offset": 40453,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 40544,
+      "offset": 40539,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 40574,
+      "offset": 40569,
       "length": 1,
       "value": "1"
     },
