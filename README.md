@@ -13,8 +13,8 @@ SPM을 사용하여 다운로드 받을시 `Package.swift`파일의 `dependencie
 ```swift
 dependencies: [
     //common의 버전과 shortform의 버전을 맞춰서 다운로드 받는 것을 권장합니다.
-    .package(url: "https://github.com/shoplive/shortform-ios", .upToNextMajor(from: "1.7.6"))  
-    .package(url: "https://github.com/shoplive/common-ios", .upToNextMajor(from: "1.7.6"))
+    .package(url: "https://github.com/shoplive/shortform-ios", .upToNextMajor(from: "1.7.6.2"))  
+    .package(url: "https://github.com/shoplive/common-ios", .upToNextMajor(from: "1.7.6.2"))
 ]
 ```
 
@@ -22,7 +22,7 @@ dependencies: [
 CocoaPod을 사용하여 다운로드 받을시 Podfile에 다음과 같이 추가하여 사용할 수 있습니다.
 
 ```ruby
-pod 'ShopliveShortformSDK', '1.7.6'
-pod 'ShopliveSDKCommon', '1.7.6'
+pod 'ShopliveShortformSDK', '1.7.6.2'
+pod 'ShopliveSDKCommon', '1.7.6.2'
 ```
 
