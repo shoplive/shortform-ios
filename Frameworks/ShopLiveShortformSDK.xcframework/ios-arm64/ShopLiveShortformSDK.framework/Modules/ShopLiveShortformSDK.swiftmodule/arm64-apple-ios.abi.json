@@ -17253,14 +17253,14 @@
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 31451,
+      "offset": 31522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Base\/ViewModel\/ShortsCollectionBaseViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 35219,
+      "offset": 35290,
       "length": 5,
       "value": "false"
     },
@@ -18555,7 +18555,7 @@
     {
       "filePath": "\/Users\/tabber\/Desktop\/github\/matrix-sdk-ios\/Modules\/Shortform\/Sources\/component\/view\/shortformList\/baseview\/YoutubePlayerView\/Reactor\/ShopLiveShortformBaseTypeYTPlayerReactor.swift",
       "kind": "FloatLiteral",
-      "offset": 1512,
+      "offset": 1506,
       "length": 3,
       "value": "0.1"
     },
