@@ -2,13 +2,13 @@
 
 ## 요구사항
 
-- iOS 15 이상 (1.9.0 부터. Common 1.9.0 기준)
+- iOS 15 이상 (1.9.1 부터. Common 1.9.0 기준)
 
 ## 버전 호환
 
 | 숏폼 | Common | 라이브 SDK |
 |---|---|---|
-| **1.9.0** | 1.9.0 (`shoplive/common-ios`) | 1.x(`shoplive-sdk-ios` 1.9.1~) · 3.x(`shoplive-sdk-ios` 3.0.3~) 모두 |
+| **1.9.1** | 1.9.0 (`shoplive/common-ios`) | 1.x(`shoplive-sdk-ios` 1.9.1~) · 3.x(`shoplive-sdk-ios` 3.0.3~) 모두 |
 | 1.8.13 | ≤ 1.8.14 | ShopLive ≤ 1.8.14 |
 
 > ⚠️ 숏폼 1.8.13 은 Common 1.8.15 이상(1.9.0 포함)과 함께 쓸 수 없습니다(실행 즉시 `Symbol not found`).
@@ -19,7 +19,7 @@
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/shoplive/shortform-ios", exact: "1.9.0")
+    .package(url: "https://github.com/shoplive/shortform-ios", exact: "1.9.1")
     // Common(shoplive/common-ios 1.9.0)은 숏폼이 의존으로 함께 가져옵니다.
 ]
 ```
@@ -39,5 +39,5 @@ dependencies: [
 source 'https://cdn.cocoapods.org/'
 source 'https://github.com/shoplive/pod-specs.git'
 
-pod 'ShopliveShortformSDK', '1.9.0'   # ShopliveSDKCommon 1.9.0 을 의존으로 가져옵니다
+pod 'ShopliveShortformSDK', '1.9.1'   # ShopliveSDKCommon 1.9.0 을 의존으로 가져옵니다
 ```
