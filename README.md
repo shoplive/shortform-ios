@@ -8,10 +8,13 @@
 
 | 숏폼 | Common | 라이브 SDK |
 |---|---|---|
-| **1.9.1** | 1.9.0 (`shoplive/common-ios`) | 1.x(`shoplive-sdk-ios` 1.9.1~) · 3.x(`shoplive-sdk-ios` 3.0.3~) 모두 |
+| **1.9.1** | 1.9.0 (`shoplive/common-ios`) | 1.x(SPM: `shoplive-sdk-ios` 1.9.1~, CocoaPods: `ShopLive` 1.9.0~) · 3.x(`shoplive-sdk-ios` 3.0.3~) 모두 |
 | 1.8.13 | ≤ 1.8.14 | ShopLive ≤ 1.8.14 |
 
 > ⚠️ 숏폼 1.8.13 은 Common 1.8.15 이상(1.9.0 포함)과 함께 쓸 수 없습니다(실행 즉시 `Symbol not found`).
+
+> 라이브 SDK 1.x 의 `1.9.1~` 는 Swift Package Manager 기준입니다(1.9.1 부터 `shoplive-sdk-ios` 가 `common-ios` 를 의존으로 가져옴).
+> CocoaPods 로 설치하면 `ShopLive` 1.9.0 도 Common 1.9.0 과 함께 쓸 수 있습니다.
 
 ## Swift Package Manager
 
