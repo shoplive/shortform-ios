@@ -1,5 +1,7 @@
 # iOS ShopLiveShortform SDK
 
+Release notes: [CHANGELOG.md](CHANGELOG.md)
+
 ## 요구사항
 
 - iOS 15 이상 (1.9.1 부터. Common 1.9.0 기준)
