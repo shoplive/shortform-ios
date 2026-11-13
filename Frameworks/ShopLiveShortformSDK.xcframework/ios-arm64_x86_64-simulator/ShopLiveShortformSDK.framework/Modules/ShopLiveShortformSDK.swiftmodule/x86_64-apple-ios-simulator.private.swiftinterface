@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ShopLiveShortformSDK
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ShopLiveShortformSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AVKit
@@ -42,15 +42,12 @@ extension SwiftUICore.Image {
   public init(asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages, label: SwiftUICore.Text)
   public init(decorative asset: ShopLiveShortformSDK.ShopLiveShortformSDKImages)
 }
-@_inheritsConvenienceInitializers @objc public class ShopLiveShortformSDKResources : ObjectiveC.NSObject {
-  @objc public class var bundle: Foundation.Bundle {
+@_inheritsConvenienceInitializers @objc final public class ShopLiveShortformSDKResources : ObjectiveC.NSObject {
+  @objc nonisolated final public class var bundle: Foundation.Bundle {
     @objc get
   }
   @objc override dynamic public init()
   @objc deinit
-}
-public enum ShopLiveShortformSDKStrings : Swift.Sendable {
-  public static let shortformListEmptyData: Swift.String
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class AVAssetDownloadManager : ObjectiveC.NSObject {
   public static let shared: ShopLiveShortformSDK.AVAssetDownloadManager
@@ -306,6 +303,10 @@ extension ShopLiveShortformSDK.ShopLiveShortform {
   public static func setReferrer(referrer: Swift.String?)
   #endif
   public static func setVisibileDetailViews(options: ShopLiveShortformSDK.ShopLiveShortformVisibleDetailData)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func setLocale(_ locale: Foundation.Locale?)
+  #endif
+  public static func getLocale() -> Foundation.Locale
   public static func setResizeMode(mode: ShopliveSDKCommon.ShopLiveResizeMode)
   public static func setEnableResumeOnForeGround(enable: Swift.Bool)
   @objc deinit
