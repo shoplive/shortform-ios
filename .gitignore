@@ -1,2 +1,4 @@
 .DS_Store
 *.xcuserstate
+# Per-user Xcode state
+xcuserdata/
