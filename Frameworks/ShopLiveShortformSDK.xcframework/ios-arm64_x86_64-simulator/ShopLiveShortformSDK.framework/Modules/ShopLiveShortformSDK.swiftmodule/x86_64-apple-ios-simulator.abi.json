@@ -13622,6 +13622,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShopLiveShortformSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -16614,7 +16624,7 @@
       "kind": "StringLiteral",
       "offset": 144,
       "length": 7,
-      "value": "\"1.9.1\""
+      "value": "\"1.9.2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/SLShortformWindow\/SLShortFormWindow.swift",
@@ -17186,70 +17196,70 @@
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "StringLiteral",
-      "offset": 4575,
+      "offset": 4771,
       "length": 12,
       "value": "\"foreground\""
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 4650,
+      "offset": 4846,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "IntegerLiteral",
-      "offset": 4662,
+      "offset": 4858,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4699,
+      "offset": 4895,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4885,
+      "offset": 5081,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4925,
+      "offset": 5121,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4971,
+      "offset": 5167,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "FloatLiteral",
-      "offset": 5018,
+      "offset": 5214,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5061,
+      "offset": 5257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsCell2\/Reactor\/ShortsCellReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5406,
+      "offset": 5602,
       "length": 5,
       "value": "false"
     },
@@ -17417,37 +17427,44 @@
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsVideoPlayer2\/ShortsVideoPlayerReactor.swift",
       "kind": "FloatLiteral",
-      "offset": 1405,
+      "offset": 1568,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsVideoPlayer2\/ShortsVideoPlayerReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1444,
+      "offset": 1607,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsVideoPlayer2\/ShortsVideoPlayerReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1511,
+      "offset": 1674,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsVideoPlayer2\/ShortsVideoPlayerReactor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1585,
+      "offset": 1748,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsVideoPlayer2\/ShortsVideoPlayerReactor.swift",
       "kind": "FloatLiteral",
-      "offset": 1699,
+      "offset": 1862,
       "length": 3,
       "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsVideoPlayer2\/ShortsVideoPlayerReactor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2187,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/_temp\/release\/src\/Modules\/Shortform\/Sources\/component\/view\/fullTypelist\/Subviews\/ShortsWebView\/ShortsWebView.swift",
